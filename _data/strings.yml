@@ -1,0 +1,12 @@
+home:                  Beranda
+about:                 Tentang Kami
+programs:              Layanan
+
+
+loading:               Loading…
+redirecting:           Redirecting…
+
+cookies_banner:
+  text: This site uses cookies. [Markdown allowed](/cookies-policy/)!
+  okay: Okay
+
