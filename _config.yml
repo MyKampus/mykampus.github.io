@@ -102,10 +102,10 @@ menu:
   - title: Beranda
     url:   /
   - title: Tentang Kami
-    url:   /tentang-kami/
+    url:   /tentang-kami
   - title: Layanan Kami
-    url:   /layanan/
+    url:   /layanan
   - title: Beasiswa
-    url:   /beasiswa/
+    url:   /beasiswa
   - title: Kampus Top US
-    url:   /kampus-top/   
+    url:   /kampus-top
