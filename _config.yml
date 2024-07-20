@@ -94,6 +94,8 @@ compress_html:
 sass:
   style:               compressed
 
+google_tag:     G-XWW0JT5SR0
+
 plugins:
   - jekyll-include-cache
   - jekyll-target-blank  
