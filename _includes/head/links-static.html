@@ -17,6 +17,16 @@
   <link rel="dns-prefetch" href="https://www.google-analytics.com">
 {% endif %}
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XWW0JT5SR0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XWW0JT5SR0');
+</script>
+
 <link rel="preload" href="{{ '/assets/img/swipe.svg' | relative_url }}" as="image" id="_hrefSwipeSVG">
 
 {% if site.kramdown.math_engine == 'katex' %}

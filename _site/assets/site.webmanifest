@@ -2,7 +2,7 @@
   "lang": "id",
   "name": "MyKampus",
   "short_name": "MyKampus",
-  "description": "",
+  "description": "MyKampus adalah platform yang membantu kamu menjadi mahasiswa di kampus top US. Kami menyediakan informasi beasiswa, kampus top US, dan layanan konsultasi pendidikan.",
   "start_url": "/?utm_source=homescreen",
   "theme_color": "rgb(25,55,71)",
   "background_color": "#fff",
