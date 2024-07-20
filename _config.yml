@@ -2,6 +2,8 @@ lang:                  id
 title:                 MyKampus
 tagline:           Wujudkan Kampus Impianmu
 copyright:          MyKampus © 2021. All rights reserved.
+url:                   https://mykamp.us
+repository:           MyKampus/mykampus.github.io
 
 author:
   name:  MyKampus Admin
