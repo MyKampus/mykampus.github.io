@@ -4,20 +4,24 @@ title: Timeline 2024
 permalink: timeline
 ---
 
-Untuk periode 2024, timeline pendaftaran beasiswa dan kampus di US adalah sebagai berikut:
+Untuk periode 2024/2025, timeline pendaftaran beasiswa dan kampus adalah sebagai berikut:
 
 <div class="col-md-12">
     <table class="table">
         <thead>
             <tr>
-                <th class="event-column">Event</th>
-                <th class="date-column">Date</th>
+                <th class="event-column">Program</th>
+                <th>Jenis</th>
+                <th class="date-column">Deadline</th>
             </tr>
         </thead>
         <tbody>
         {% for event in site.data.timeline.events %}
             <tr>
-                <td>{{ event.name }}</td>
+                <td>
+                    {% if event.type == "kampus" %}<img class="campus-icon" src="assets/icons/{{ event.school }}.ico">{% endif %}<a href="{{ event.web }}">{{ event.name }}</a></td>
+                <td>
+                {% if event.type == "beasiswa" %}<span class="badge-beasiswa">{% else %}<span class="badge-kampus">{% endif %}{{ event.type }}</span></td>
                 <td>
                     {% assign date_parts = event.date | split: "-" %}
                     {% assign month_index = date_parts[1] | minus: 1 %}

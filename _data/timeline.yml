@@ -1,102 +1,113 @@
 #timeline.yml
 months_id:
-  - Januari
-  - Februari
-  - Maret
-  - April
+  - Jan
+  - Feb
+  - Mar
+  - Apr
   - Mei
-  - Juni
-  - Juli
-  - Agustus
-  - September
-  - Oktober
-  - November
-  - Desember
+  - Jun
+  - Jul
+  - Agu
+  - Sep
+  - Okt
+  - Nov
+  - Des
 
 events:
   - name: Stanford MBA (Round 3)
     date: 2025-04-08
     web: https://applymbamsx.stanford.edu/apply/
     countdown: true       
-    type: campus  
+    type: kampus  
+    school: stanford
   - name: Stanford Health Policy (MS)
     date: 2025-01-23
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true  
-    type: campus
+    type: kampus
+    school: stanford
   - name: Stanford MBA (Round 2)
     date: 2025-01-08
     web: https://applymbamsx.stanford.edu/apply/
     countdown: true       
-    type: campus    
+    type: kampus    
+    school: stanford
   - name: Beasiswa AMINEF CCIP (Non-Degree)
     date: 2024-12-31
     web: https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/fellowships/community-college-initiative-program/
     countdown: true
-    type: campus
+    type: beasiswa
   - name: Stanford Earth and Planetary Sciences (MS and PhD)
     date: 2024-12-06
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true        
-    type: campus
+    type: kampus
+    school: stanford
   - name: Stanford Aeronautics and Astronautics Engineering (MS and PhD)
     date: 2024-12-03
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true
-    type: campus
+    type: kampus
+    school: stanford
   - name: Stanford Health Policy (PhD)
     date: 2024-12-03
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true
-    type: campus
+    type: kampus
+    school: stanford
   - name: Stanford Civil and Environmental Engineering (MS and PhD)
     date: 2024-12-03
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true 
-    type: campus
+    type: kampus
+    school: stanford
   - name: Stanford Computer Science (MS and PhD)
     date: 2024-12-03
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true       
-    type: campus
+    type: kampus
+    school: stanford
   - name: Stanford Bioengineering (MS and PhD)
     date: 2024-12-02
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true    
-    type: campus
+    type: kampus
+    school: stanford
   - name: Stanford Mechanical Engineering (MS and PhD)
     date: 2024-12-02
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true     
-    type: campus
+    type: kampus
+    school: stanford
   - name: Stanford MBA (Round 1)
     date: 2024-09-10
     web: https://applymbamsx.stanford.edu/apply/
     countdown: true       
-    type: campus
+    type: kampus
+    school: stanford
   - name: Beasiswa LPDP (Batch 2)
     date: 2024-07-18
     web: https://beasiswa.lpdp.kemenkeu.go.id/
     countdown: true
-    type: scholarship
+    type: beasiswa
   - name: Beasiswa CIMB Niaga 2024 
     date: 2024-06-31    
     countdown: true
-    type: scholarship
+    type: beasiswa
     web: https://www.cimb.com/en/careers/students/cimb-asean-scholarship.html
   - name: Beasiswa Indonesia Maju Kemdikbud (Luar Negeri)
     date: 2024-05-31
     web: https://beasiswa.kemdikbud.go.id/
     countdown: true
-    type: scholarship
+    type: beasiswa
   - name: Beasiswa Fulbright PhD
     date: 2024-02-15
     web: https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/scholarship/fulbright-doctoral-degree-phd-scholarship/
     countdown: true
-    type: scholarship
+    type: beasiswa
   - name: Beasiswa LPDP (Batch 1)
     date: 2024-02-10
     web: https://beasiswa.lpdp.kemenkeu.go.id/
     countdown: true
-    type: scholarship
+    type: beasiswa
   
