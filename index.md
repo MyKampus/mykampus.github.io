@@ -33,3 +33,14 @@ Kami tetap bersama Anda bahkan setelah Anda tiba di Amerika Serikat. Tim kami si
 - **Layanan Terpadu:** MyKampus menyediakan layanan yang komprehensif, sehingga Anda tidak perlu mencari bantuan dari berbagai sumber.
 
 Mari wujudkan impian pendidikan Anda bersama MyKampus. Untuk informasi lebih lanjut, jangan ragu untuk menghubungi kami. Kami siap membantu Anda meraih masa depan yang lebih cerah!
+
+## Newsletter MyKampus
+
+<div class="cropped-image-page">
+  <a href="/"><img src="../assets/img/logo-color.png"></a>
+</div>
+
+Daftarkan email mu di bawah untuk berlangganan ke newsletter MyKampus yang berisi beragam info menarik seputar beasiswa dan peluang kuliah di Amerika Serikat. 
+
+{% include components/subscription.html %}
+

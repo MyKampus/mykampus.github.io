@@ -4,7 +4,7 @@ title: Timeline 2024
 permalink: timeline
 ---
 
-Untuk periode 2024, timeline beasiswa dan kampus sebagai berikut:
+Untuk periode 2024, timeline pendaftaran beasiswa dan kampus di US adalah sebagai berikut:
 
 <div class="col-md-12">
     <table class="table">

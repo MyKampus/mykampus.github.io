@@ -8,7 +8,11 @@ description: Informasi tentang 10 kampus terbaik di Amerika Serikat tahun 2024 m
 
 ## Peringkat Kampus Terbaik di Amerika Serikat
 
-Berikut adalah daftar 10 kampus terbaik di Amerika Serikat tahun 2024 berdasarkan beberapa sumber terpercaya seperti Times Higher Education (THE) dan QS World University Rankings. Kampus-kampus ini dikenal dengan reputasi akademik yang tinggi, fasilitas penelitian yang unggul, serta lingkungan belajar yang mendukung.
+<div class="cropped-image-page">
+  <a href="/"><img src="../assets/img/logo-color.png"></a>
+</div>
+
+Berikut adalah daftar 10 kampus terbaik di Amerika Serikat tahun 2024 versi MyKampus berdasarkan beberapa sumber terpercaya seperti Times Higher Education (THE) dan QS World University Rankings. Kampus-kampus ini dikenal dengan reputasi akademik yang tinggi, fasilitas penelitian yang unggul, serta lingkungan belajar yang mendukung.
 
 ### 1. **Massachusetts Institute of Technology (MIT)**
 
@@ -49,4 +53,3 @@ Berikut adalah daftar 10 kampus terbaik di Amerika Serikat tahun 2024 berdasarka
 ### 10. **University of California, Berkeley (UC Berkeley)**
 
 [UC Berkeley](https://www.berkeley.edu/) adalah universitas negeri teratas yang dikenal dengan output penelitiannya, badan mahasiswa yang beragam, dan program-program kuat di berbagai disiplin ilmu.
-

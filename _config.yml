@@ -107,16 +107,10 @@ menu:
     url:   /layanan
   - title: Timeline 2024
     url:   /timeline
-  - title: Events
-    url:   /events
   - title: Info
     url:   /info
-  # - title: Beasiswa
-  #   url:   /beasiswa
-  # - title: Kampus Top US
-  #   url:   /kampus-top
-  # - title: Berkas Pendaftaran
-  #   url:   /berkas-pendaftaran
+  - title: Events
+    url:   /events
   - title: Tentang Kami
     url:   /tentang-kami
 
