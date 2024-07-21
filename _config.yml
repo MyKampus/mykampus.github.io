@@ -9,7 +9,7 @@ repository:           MyKampus/mykampus.github.io
 
 author:
   name:  MyKampus Admin
-  email: cs@mykamp.us
+  email: admin@mykamp.us
   social:
     twitter: MyKampus_
     instagram: MyKampus
@@ -22,9 +22,7 @@ legal:
     url:               /NOTICE
   # - title:             CHANGELOG
     # url:               /CHANGELOG
-
-hydejack:
-  cookies_banner: false    
+   
 
 accent_image:          /assets/img/mykampus-sidebar.jpeg
 accent_color:          rgb(79,177,186)
@@ -119,7 +117,6 @@ menu:
     url:   /events
   - title: Hubungi
     url:   /kontak
-    nav_text: true
   - title: Tentang Kami
     url:   /tentang-kami
 
