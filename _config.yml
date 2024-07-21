@@ -119,3 +119,8 @@ menu:
   #   url:   /berkas-pendaftaran
   - title: Tentang Kami
     url:   /tentang-kami
+
+collections:
+  info:
+    output: true
+    permalink: /:path

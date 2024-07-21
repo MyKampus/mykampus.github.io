@@ -1,7 +1,11 @@
 ---
 layout: about
 title: Beasiswa
-permalink: beasiswa
+permalink: info/beasiswa
+category: info
+# featured_img: /assets/img/mykampus-sidebar.jpeg
+featured_img_position: -100%
+description: Informasi tentang berbagai beasiswa untuk pelajar Indonesia yang ingin melanjutkan studi master atau PhD di Amerika Serikat, termasuk LPDP, Fulbright, AMINEF CCIP, CIMB ASEAN, dan Beasiswa Indonesia Maju.
 ---
 
 ## Pentingnya Beasiswa
@@ -29,9 +33,3 @@ Untuk mengejar gelar master atau PhD di Amerika Serikat, beasiswa sangat penting
 ### 5. **Beasiswa Indonesia Maju (BIM)**
 
 [Beasiswa Indonesia Maju](https://bim-pusatprestasinasional.kemdikbud.go.id/){:target="_blank"} adalah program beasiswa yang disediakan oleh Kementerian Pendidikan dan Kebudayaan Indonesia untuk mendukung pelajar yang ingin melanjutkan studi ke luar negeri, termasuk Amerika Serikat. Pendaftaran biasanya dibuka pada bulan Mei. Beasiswa ini mencakup biaya kuliah penuh, biaya hidup bulanan, tunjangan buku dan penelitian, biaya aplikasi visa, dan asuransi kesehatan. Program ini bertujuan untuk mencetak generasi muda yang kompeten dan berdaya saing global.
-
-
-
-## Timeline
-
-TBA

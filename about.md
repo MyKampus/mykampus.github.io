@@ -17,17 +17,17 @@ Misi kami adalah untuk memberikan layanan terbaik dan bimbingan yang komprehensi
 
 ## Tim MyKampus
 
-MyKampus didirikan oleh tim profesional yang berpengalaman dalam bidang pendidikan dan beasiswa dan Amerika Serikat. Tim kami terdiri dari alumni kampus ternama dan telah banyak membantu para pelajar dari berbagai negara, termasuk Indonesia, untuk melanjutkan studi di berbagai [universitas top di Amerika Serikat](kampus-top).
+MyKampus didirikan oleh tim profesional yang berpengalaman dalam bidang pendidikan dan beasiswa dan Amerika Serikat. Tim kami terdiri dari alumni kampus ternama dan telah banyak membantu para pelajar dari berbagai negara, termasuk Indonesia, untuk melanjutkan studi di berbagai [universitas top di Amerika Serikat](info/kampus-top).
 
-- **Mansur Arief (Managing Consultant)**: Stanford, ex. Carnegie Mellon & Michigan
+- **Mansur Arief (Managing Consultant)**: Stanford, ex. Carnegie Mellon & Michigan,
   
-- **Rizki Oktavian (Senior Consultant)**: ex. Purdue & Michigan
+- **Rizki Oktavian (Senior Consultant)**: ex. Purdue & Michigan,
   
-- **Zulkifli Palinrungi (Consultant)**: ex. Carnegie Mellon
+- **Zulkifli Palinrungi (Senior Consultant)**: ex. Carnegie Mellon,
 
-- **Nisa Fajriani (Consultant)**: Harvard
+- **Nisa Fajriani (Senior Consultant)**: Harvard,
 
-
+- serta banyak konsultan, reviewer, dan tim admin lainnya.
 
 ## Hubungi Kami
 
@@ -35,4 +35,4 @@ Untuk informasi lebih lanjut atau konsultasi, jangan ragu untuk menghubungi kami
 
 - **Email**: [cs@mykamp.us](mailto:cs@mykamp.us)
 
-- **WA**: TBA
+- **WhatsApp**: TBA

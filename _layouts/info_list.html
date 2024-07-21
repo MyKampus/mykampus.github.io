@@ -1,0 +1,35 @@
+---
+layout: base
+---
+
+{% assign info_pages = site.info | where: "category", "info" %}
+
+<article id="info-list" class="page mb6" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="info-list">
+    {% for info_page in info_pages %}
+      <div class="info-item">        
+        <h2><a href="{{ info_page.url | relative_url }}" class="flip-title">{{ info_page.title }}</a></h2>
+        {% if info_page.featured_img %}
+          <div class="featured-img-container">
+            <a href="{{ info_page.url | relative_url }}"><img src="{{ info_page.featured_img | relative_url }}" 
+                 alt="{{ info_page.title }}" 
+                 class="featured-img {% if info_page.featured_img_class %}{{ info_page.featured_img_class }}{% else %}featured-img-50{% endif %}"
+                 {% if info_page.featured_img_position %}style="top: {{ info_page.featured_img_position }} !important;"{% endif %}></a>
+          </div>
+        {% endif %}
+        {% if info_page.description %}
+          <p class="description">{{ info_page.description }}</p>
+        {% endif %}
+        <p class="last-updated">
+          Terakhir diperbarui: {{ info_page.date | date: "%d %B %Y" }}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</article>
+
+{% include components/dingbat.html %}

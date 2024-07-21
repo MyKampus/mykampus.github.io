@@ -1,7 +1,9 @@
 ---
 layout: about
 title: Kampus Top US
-permalink: kampus-top
+permalink: info/kampus-top
+category: info
+description: Informasi tentang 10 kampus terbaik di Amerika Serikat tahun 2024 menurut Times Higher Education dan QS World University Rankings, termasuk MIT, Stanford, Harvard, dan lainnya.
 ---
 
 ## Peringkat Kampus Terbaik di Amerika Serikat
