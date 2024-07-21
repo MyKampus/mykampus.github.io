@@ -39,6 +39,7 @@ Untuk informasi lebih lanjut atau konsultasi, jangan ragu untuk menghubungi kami
 
 - **Komunitas**: [Join Komunitas MyKampus](info/komunitas)
 
+
 <div class="cropped-image-page">
   <a href="/"><img src="../assets/img/logo-color.png"></a>
 </div>

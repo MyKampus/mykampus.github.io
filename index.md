@@ -24,7 +24,7 @@ Kami memahami bahwa keberangkatan ke luar negeri untuk studi bisa menimbulkan ba
 
 ### 4. Dukungan Pasca-Keberangkatan
 
-Kami tetap bersama Anda bahkan setelah Anda tiba di Amerika Serikat. Tim kami siap membantu Anda dengan berbagai kebutuhan yang mungkin timbul selama studi Anda, seperti dukungan akademik, curhat, konsultasi karir, hingga traveling bareng di Amerika Serikat. [Subscribe newsletter MyKampus](newsletter) untuk info seru lainnya.
+Kami tetap bersama Anda bahkan setelah Anda tiba di Amerika Serikat. Tim kami siap membantu Anda dengan berbagai kebutuhan yang mungkin timbul selama studi Anda, seperti dukungan akademik, curhat, konsultasi karir, hingga traveling bareng di Amerika Serikat. [Subscribe newsletter MyKampus](/#newsletter-mykampus) untuk info seru lainnya.
 
 ## Mengapa Memilih MyKampus?
 

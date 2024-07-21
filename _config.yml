@@ -16,12 +16,12 @@ author:
 
 
 legal:
-  - title:             LICENSE
-    url:               /LICENSE
+  # - title:             LICENSE
+  #   url:               /LICENSE
   - title:             NOTICE
     url:               /NOTICE
-  - title:             CHANGELOG
-    url:               /CHANGELOG
+  # - title:             CHANGELOG
+    # url:               /CHANGELOG
 
 hydejack:
   cookies_banner: false    
@@ -107,6 +107,9 @@ menu:
   - title: Layanan
     url:   /layanan
     nav_text: true
+  - title: Daftar
+    url:   /daftar
+    nav_text: true
   - title: Timeline
     url:   /timeline
     nav_text: true
@@ -114,8 +117,12 @@ menu:
     url:   /info
   - title: Events
     url:   /events
+  - title: Hubungi
+    url:   /kontak
+    nav_text: true
   - title: Tentang Kami
     url:   /tentang-kami
+
 
 menu_text:
   - title: "Home"
