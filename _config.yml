@@ -103,16 +103,29 @@ plugins:
 menu:
   - title: Beranda
     url:   /
-  - title: Layanan Kami
+    nav_text: true
+  - title: Layanan
     url:   /layanan
-  - title: Timeline 2024
+    nav_text: true
+  - title: Timeline
     url:   /timeline
+    nav_text: true
   - title: Info
     url:   /info
   - title: Events
     url:   /events
   - title: Tentang Kami
     url:   /tentang-kami
+
+menu_text:
+  - title: "Home"
+    url: "/"
+  - title: "Layanan"
+    url: "/layanan"
+  - title: "Timeline"
+    url: "/timeline"
+  - title: "Kontak Kami"
+    url: "/kontak-kami"    
 
 collections:
   info:

@@ -1,5 +1,33 @@
-#_navbar {
-    display: none !important;
+.nav-text {
+  background: none;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 5rem;
+  height: 5rem;
+  color: var(--menu-text);
+  // border-right: 1px solid var(--border-color);
+  // border-left: 1px solid var(--border-color);
+  margin-left: -1px;
+  padding: 10px;
+}
+
+.nav-btn-bar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+/* Optional: Style adjustments for better responsiveness */
+@media (min-width: 390px) {
+  .nav-btn-bar {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
