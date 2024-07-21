@@ -14,28 +14,89 @@ months_id:
   - Desember
 
 events:
-  - name: Deadline AMINEF CCIP (Non-Degree)
+  - name: Stanford MBA (Round 3)
+    date: 2025-04-08
+    web: https://applymbamsx.stanford.edu/apply/
+    countdown: true       
+    type: campus  
+  - name: Stanford Health Policy (MS)
+    date: 2025-01-23
+    web: https://gradadmissions.stanford.edu/explore-programs
+    countdown: true  
+    type: campus
+  - name: Stanford MBA (Round 2)
+    date: 2025-01-08
+    web: https://applymbamsx.stanford.edu/apply/
+    countdown: true       
+    type: campus    
+  - name: Beasiswa AMINEF CCIP (Non-Degree)
     date: 2024-12-31
     web: https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/fellowships/community-college-initiative-program/
     countdown: true
-  - name: Deadline pendaftaran LPDP (Batch 2)
+    type: campus
+  - name: Stanford Earth and Planetary Sciences (MS and PhD)
+    date: 2024-12-06
+    web: https://gradadmissions.stanford.edu/explore-programs
+    countdown: true        
+    type: campus
+  - name: Stanford Aeronautics and Astronautics Engineering (MS and PhD)
+    date: 2024-12-03
+    web: https://gradadmissions.stanford.edu/explore-programs
+    countdown: true
+    type: campus
+  - name: Stanford Health Policy (PhD)
+    date: 2024-12-03
+    web: https://gradadmissions.stanford.edu/explore-programs
+    countdown: true
+    type: campus
+  - name: Stanford Civil and Environmental Engineering (MS and PhD)
+    date: 2024-12-03
+    web: https://gradadmissions.stanford.edu/explore-programs
+    countdown: true 
+    type: campus
+  - name: Stanford Computer Science (MS and PhD)
+    date: 2024-12-03
+    web: https://gradadmissions.stanford.edu/explore-programs
+    countdown: true       
+    type: campus
+  - name: Stanford Bioengineering (MS and PhD)
+    date: 2024-12-02
+    web: https://gradadmissions.stanford.edu/explore-programs
+    countdown: true    
+    type: campus
+  - name: Stanford Mechanical Engineering (MS and PhD)
+    date: 2024-12-02
+    web: https://gradadmissions.stanford.edu/explore-programs
+    countdown: true     
+    type: campus
+  - name: Stanford MBA (Round 1)
+    date: 2024-09-10
+    web: https://applymbamsx.stanford.edu/apply/
+    countdown: true       
+    type: campus
+  - name: Beasiswa LPDP (Batch 2)
     date: 2024-07-18
     web: https://beasiswa.lpdp.kemenkeu.go.id/
     countdown: true
-  - name: Deadline CIMB Niaga Scholarship 2024 
+    type: scholarship
+  - name: Beasiswa CIMB Niaga 2024 
     date: 2024-06-31    
     countdown: true
+    type: scholarship
     web: https://www.cimb.com/en/careers/students/cimb-asean-scholarship.html
-  - name: Deadline Beasiswa Indonesia Maju Kemdikbud (Luar Negeri)
+  - name: Beasiswa Indonesia Maju Kemdikbud (Luar Negeri)
     date: 2024-05-31
     web: https://beasiswa.kemdikbud.go.id/
     countdown: true
-  - name: Deadline Fulbright PhD Scholarship
+    type: scholarship
+  - name: Beasiswa Fulbright PhD
     date: 2024-02-15
     web: https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/scholarship/fulbright-doctoral-degree-phd-scholarship/
     countdown: true
-  - name: Deadline pendaftaran LPDP (Batch 1)
+    type: scholarship
+  - name: Beasiswa LPDP (Batch 1)
     date: 2024-02-10
     web: https://beasiswa.lpdp.kemenkeu.go.id/
     countdown: true
+    type: scholarship
   
