@@ -21,11 +21,11 @@ MyKampus didirikan oleh tim profesional yang berpengalaman dalam bidang pendidik
 
 - **Mansur Arief (Managing Consultant)**: Stanford, ex. Carnegie Mellon & Michigan,
   
-- **Rizki Oktavian (Senior Consultant)**: ex. Purdue & Michigan,
+<!-- - **Rizki Oktavian (Senior Consultant)**: ex. Purdue & Michigan, -->
   
 - **Zulkifli Palinrungi (Senior Consultant)**: ex. Carnegie Mellon,
 
-- **Nisa Fajriani (Senior Consultant)**: Harvard,
+<!-- - **Nisa Fajriani (Senior Consultant)**: Harvard, -->
 
 - serta banyak konsultan, reviewer, dan tim admin lainnya.
 

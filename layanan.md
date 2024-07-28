@@ -4,9 +4,13 @@ title: Layanan Kami
 permalink: layanan
 ---
 
-MyKampus menyediakan berbagai layanan yang dirancang untuk membantu Anda meraih impian pendidikan tinggi di Amerika Serikat. Kami menawarkan berbagai program bimbingan yang dapat disesuaikan dengan kebutuhan Anda. Berikut adalah layanan yang kami tawarkan:
+MyKampus menyediakan berbagai layanan yang dirancang untuk membantu Anda meraih impian pendidikan tinggi di Amerika Serikat. Kami menawarkan berbagai program bimbingan yang dapat disesuaikan dengan kebutuhan Anda. Berikut adalah program layanan yang kami tawarkan:
 
-## One-on-One Mentoring (highly rated)
+## Webinar Series (Free)
+
+Program webinar interaktif yang mengundang alumni/mahasiswa kampus di Amerika Serikat untuk berbagi pengalaman serta tips dan trik mencari beasiswa dan mendaftar kampus.
+
+## One-on-One Mentoring 
 
 Layanan bimbingan individu ini dirancang untuk memberikan perhatian khusus dan panduan yang dipersonalisasi sesuai dengan kebutuhan Anda. Setiap sesi berlangsung selama satu jam dan diadakan dua kali dalam sebulan.
 
