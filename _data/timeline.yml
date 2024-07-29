@@ -14,19 +14,31 @@ months_id:
   - Des
 
 events:
-  - name: Stanford MBA (Round 3)
+  - name: Stanford GSB MBA (Round 3)
     date: 2025-04-08
     web: https://applymbamsx.stanford.edu/apply/
     countdown: true       
     type: kampus  
     school: stanford
+  - name: Stanford GSB MSx (Round 3)
+    date: 2025-02-13
+    web: https://applymbamsx.stanford.edu/apply/
+    countdown: true       
+    type: kampus  
+    school: stanford    
   - name: Stanford Health Policy (MS)
     date: 2025-01-23
     web: https://gradadmissions.stanford.edu/explore-programs
     countdown: true  
     type: kampus
     school: stanford
-  - name: Stanford MBA (Round 2)
+  - name: Stanford GSB MSx (Round 2)
+    date: 2025-01-08
+    web: https://applymbamsx.stanford.edu/apply/
+    countdown: true       
+    type: kampus  
+    school: stanford    
+  - name: Stanford GSB MBA (Round 2)
     date: 2025-01-08
     web: https://applymbamsx.stanford.edu/apply/
     countdown: true       
@@ -79,7 +91,19 @@ events:
     countdown: true     
     type: kampus
     school: stanford
-  - name: Stanford MBA (Round 1)
+  - name: Stanford GSB MSx (Round 1)
+    date: 2024-10-15
+    web: https://applymbamsx.stanford.edu/apply/
+    countdown: true       
+    type: kampus  
+    school: stanford    
+  - name: Stanford Knight-Hennessy Scholars (KHS)
+    date: 2024-10-09
+    web: https://knight-hennessy.stanford.edu/admission
+    countdown: true       
+    type: beasiswa  
+    school: stanford     
+  - name: Stanford GSB MBA (Round 1)
     date: 2024-09-10
     web: https://applymbamsx.stanford.edu/apply/
     countdown: true       
