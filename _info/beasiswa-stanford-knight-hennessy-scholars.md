@@ -94,4 +94,4 @@ Untuk informasi lebih lanjut terkait beasiswa KHS, silakan kunjungi:
     </table>
 </div>
 
-Tim MyKampus siap membantumu menyiapkan dokumen untuk mendaftar program di Stanford, sekaligus mendaftar beasiswa KHS ini. [Hubungi tim MyKampus](kontak) untuk konsultasi layanan yang tersedia.
+Tim MyKampus siap membantumu menyiapkan dokumen untuk mendaftar program di Stanford, sekaligus mendaftar beasiswa KHS ini. [Hubungi tim MyKampus](../kontak) untuk konsultasi layanan yang tersedia.
