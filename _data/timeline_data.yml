@@ -356,3 +356,227 @@ events:
     countdown: true
     type: kampus
     school: mit
+
+  - name: Harvard Computational Science & Engineering MS
+    date: 2024-12-01
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Computational Science & Engineering PhD
+    date: 2024-12-15
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Computer Science MS
+    date: 2024-12-01
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Computer Science PhD
+    date: 2024-12-15
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Bioengineering MS
+    date: 2024-12-01
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Bioengineering PhD
+    date: 2024-12-15
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Electrical Engineering MS
+    date: 2024-12-01
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Electrical Engineering PhD
+    date: 2024-12-15
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Environmental Science & Engineering MS
+    date: 2024-12-01
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Environmental Science & Engineering PhD
+    date: 2024-12-15
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Mechanical Engineering MS
+    date: 2024-12-01
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Mechanical Engineering PhD
+    date: 2024-12-15
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Mathematics MS
+    date: 2024-12-01
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Mathematics PhD
+    date: 2024-12-15
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Physics MS
+    date: 2024-12-01
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Harvard Physics PhD
+    date: 2024-12-15
+    web: https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs
+    countdown: true
+    type: kampus
+    school: harvard
+
+  - name: Michigan Environmental Engineering MS
+    date: 2025-01-15
+    web: https://cee.engin.umich.edu/graduate-studies/admissions-information/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Environmental Engineering PhD
+    date: 2024-12-15
+    web: https://cee.engin.umich.edu/graduate-studies/admissions-information/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Civil Engineering MS
+    date: 2025-01-15
+    web: https://cee.engin.umich.edu/graduate-studies/admissions-information/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Civil Engineering PhD
+    date: 2024-12-15
+    web: https://cee.engin.umich.edu/graduate-studies/admissions-information/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Electrical and Computer Engineering MS
+    date: 2025-01-15
+    web: https://ece.engin.umich.edu/academics/graduate-programs/prospective-grad-students/apply-for-grad/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Electrical and Computer Engineering PhD
+    date: 2024-12-15
+    web: https://ece.engin.umich.edu/academics/graduate-programs/prospective-grad-students/apply-for-grad/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Industrial and Operations Engineering MS
+    date: 2025-01-15
+    web: https://ioe.engin.umich.edu/graduate/masters-program/masters-applications/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Industrial and Operations Engineering PhD
+    date: 2024-12-10
+    web: https://ioe.engin.umich.edu/graduate/phd-program/phd-applications/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Mechanical Engineering MS
+    date: 2025-01-15
+    web: https://me.engin.umich.edu/admissions/graduate/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Mechanical Engineering PhD
+    date: 2024-12-01
+    web: https://me.engin.umich.edu/admissions/graduate/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Naval Architecture and Marine Engineering MS
+    date: 2025-01-15
+    web: https://name.engin.umich.edu/home/academics/graduate-studies/graduate-admissions/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Naval Architecture and Marine Engineering PhD
+    date: 2024-12-15
+    web: https://name.engin.umich.edu/home/academics/graduate-studies/ph-d-degree/
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Mathematics MS
+    date: 2025-02-01
+    web: https://lsa.umich.edu/math/graduates/GraduateStudentHandbook/mathematics-master-s-degree.html
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Mathematics PhD
+    date: 2024-12-15
+    web: https://lsa.umich.edu/math/graduates/GraduateStudentHandbook/ph-d-programs1.html
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Environmental Health Sciences MS
+    date: 2024-12-01
+    web: https://sph.umich.edu/admissions/mph-mhsa-application-checklist.html
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Environmental Health Sciences PhD
+    date: 2024-12-01
+    web: https://sph.umich.edu/ehs/programs/phd.html
+    countdown: true
+    type: kampus
+    school: michigan
