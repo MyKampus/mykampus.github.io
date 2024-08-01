@@ -17,6 +17,12 @@ events:
     date: 2024-10-15
     countdown: true
     type: "kampus"
+  - name: "Johns Hopkins Public Policy MS"
+    web: "https://sais.jhu.edu/admissions/masters-program-admissions/how-apply/how-apply-mipp-washington-dc"
+    school: "johns-hopkins"
+    date: 2024-10-15
+    countdown: true
+    type: "kampus"
   - name: "MIT Chemical Engineering MS"
     web: "https://oge.mit.edu/programs/chemical-engineering/"
     school: "mit"
@@ -128,6 +134,48 @@ events:
   - name: "Michigan Environmental Health Sciences PhD"
     web: "https://sph.umich.edu/ehs/programs/phd.html"
     school: "michigan"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Geography and Environmental Health PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Chemical and Biological Engineering MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemical-and-biological-engineering"
+    school: "princeton"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Chemical and Biological Engineering PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemical-and-biological-engineering"
+    school: "princeton"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Mechanical and Aerospace Engineering MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering"
+    school: "princeton"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Mechanical and Aerospace Engineering PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering"
+    school: "princeton"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Yale Statistics & Data Science MS"
+    web: "https://gsas.yale.edu/programs-of-study/statistics-data-science"
+    school: "yale"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Yale Psychology PhD"
+    web: "https://gsas.yale.edu/programs-of-study/psychology"
+    school: "yale"
     date: 2024-12-01
     countdown: true
     type: "kampus"
@@ -365,11 +413,221 @@ events:
     date: 2024-12-15
     countdown: true
     type: "kampus"
+  - name: "Johns Hopkins Chemical and Biomolecular Engineering PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Computer Science PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Materials Science MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Mechanical Engineering MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Mechanical Engineering PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Computer Science MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
+    school: "princeton"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Computer Science PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
+    school: "princeton"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Electrical and Computer Engineering PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering"
+    school: "princeton"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Applied and Computational Math PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/applied-and-computational-math"
+    school: "princeton"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Economics PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/economics"
+    school: "princeton"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Chemical & Environmental Engineering MS"
+    web: "https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Chemical & Environmental Engineering PhD"
+    web: "https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Computer Science PhD"
+    web: "https://gsas.yale.edu/programs-of-study/computer-science"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Electrical Engineering MS"
+    web: "https://gsas.yale.edu/programs-of-study/electrical-engineering"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Electrical Engineering PhD"
+    web: "https://gsas.yale.edu/programs-of-study/electrical-engineering"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Mechanical Engineering & Materials Science MS"
+    web: "https://gsas.yale.edu/programs-of-study/mechanical-engineering-materials-science"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Mechanical Engineering & Materials Science PhD"
+    web: "https://gsas.yale.edu/programs-of-study/mechanical-engineering-materials-science"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Applied Physics MS"
+    web: "https://gsas.yale.edu/programs-of-study/applied-physics"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Applied Physics PhD"
+    web: "https://gsas.yale.edu/programs-of-study/applied-physics"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Statistics & Data Science PhD"
+    web: "https://gsas.yale.edu/programs-of-study/statistics-data-science"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Law PhD"
+    web: "https://gsas.yale.edu/programs-of-study/law"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Management PhD"
+    web: "https://gsas.yale.edu/programs-of-study/management"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Music MS"
+    web: "https://gsas.yale.edu/programs-of-study/music"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Music PhD"
+    web: "https://gsas.yale.edu/programs-of-study/music"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Political Science PhD"
+    web: "https://gsas.yale.edu/programs-of-study/political-science"
+    school: "yale"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Electrical and Computer MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-22
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Electrical and Computer PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-22
+    countdown: true
+    type: "kampus"
   - name: "Beasiswa AMINEF CCIP (Non-Degree)"
     web: "https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/fellowships/community-college-initiative-program/"
     date: 2024-12-31
     countdown: true
     type: "beasiswa"
+  - name: "Johns Hopkins Civil Engineering PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2024-12-31
+    countdown: true
+    type: "kampus"
+  - name: "Yale Computer Science MS"
+    web: "https://gsas.yale.edu/programs-of-study/computer-science"
+    school: "yale"
+    date: 2025-01-02
+    countdown: true
+    type: "kampus"
+  - name: "Yale Applied Mathematics PhD"
+    web: "https://gsas.yale.edu/programs-of-study/applied-mathematics"
+    school: "yale"
+    date: 2025-01-02
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Architecture MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/architecture"
+    school: "princeton"
+    date: 2025-01-03
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Architecture PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/architecture"
+    school: "princeton"
+    date: 2025-01-03
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Civil and Environmental Engineering MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/civil-and-environmental-engineering"
+    school: "princeton"
+    date: 2025-01-03
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Civil and Environmental Engineering PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/civil-and-environmental-engineering"
+    school: "princeton"
+    date: 2025-01-03
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Electrical and Computer Engineering MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering"
+    school: "princeton"
+    date: 2025-01-03
+    countdown: true
+    type: "kampus"
   - name: "Stanford GSB MSx (Round 2)"
     web: "https://applymbamsx.stanford.edu/apply/"
     school: "stanford"
@@ -472,10 +730,40 @@ events:
     date: 2025-02-13
     countdown: true
     type: "kampus"
+  - name: "Johns Hopkins Computer Science MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2025-02-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Materials Science PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2025-02-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Civil Engineering MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2025-03-01
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Geography and Environmental Health MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2025-03-01
+    countdown: true
+    type: "kampus"
   - name: "Stanford GSB MBA (Round 3)"
     web: "https://applymbamsx.stanford.edu/apply/"
     school: "stanford"
     date: 2025-04-08
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Chemical and Biomolecular Engineering MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    school: "johns-hopkins"
+    date: 2025-05-01
     countdown: true
     type: "kampus"
   - name: "Beasiswa LPDP (Batch 2)"

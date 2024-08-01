@@ -580,3 +580,339 @@ events:
     countdown: true
     type: kampus
     school: michigan
+
+  - name: Johns Hopkins Chemical and Biomolecular Engineering MS
+    date: 2025-05-01
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Chemical and Biomolecular Engineering PhD
+    date: 2024-12-15
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Civil Engineering MS
+    date: 2025-03-01
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Civil Engineering PhD
+    date: 2024-12-31
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Computer Science MS
+    date: 2025-02-15
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Computer Science PhD
+    date: 2024-12-15
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Geography and Environmental Health MS
+    date: 2025-03-01
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Geography and Environmental Health PhD
+    date: 2024-12-01
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Materials Science MS
+    date: 2024-12-15
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Materials Science PhD
+    date: 2025-02-15
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Mechanical Engineering MS
+    date: 2024-12-15
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Mechanical Engineering PhD
+    date: 2024-12-15
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Public Policy MS
+    date: 2024-10-15
+    web: https://sais.jhu.edu/admissions/masters-program-admissions/how-apply/how-apply-mipp-washington-dc
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Electrical and Computer MS
+    date: 2024-12-22
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Johns Hopkins Electrical and Computer PhD
+    date: 2024-12-22
+    web: https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/
+    countdown: true
+    type: kampus
+    school: johns-hopkins
+
+  - name: Princeton Architecture MS
+    date: 2025-01-03
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/architecture
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Architecture PhD
+    date: 2025-01-03
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/architecture
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Chemical and Biological Engineering MS
+    date: 2024-12-01
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemical-and-biological-engineering
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Chemical and Biological Engineering PhD
+    date: 2024-12-01
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemical-and-biological-engineering
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Civil and Environmental Engineering MS
+    date: 2025-01-03
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/civil-and-environmental-engineering
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Civil and Environmental Engineering PhD
+    date: 2025-01-03
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/civil-and-environmental-engineering
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Computer Science MS
+    date: 2024-12-15
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Computer Science PhD
+    date: 2024-12-15
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Electrical and Computer Engineering MS
+    date: 2025-01-03
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Electrical and Computer Engineering PhD
+    date: 2024-12-15
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Mechanical and Aerospace Engineering MS
+    date: 2024-12-01
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Mechanical and Aerospace Engineering PhD
+    date: 2024-12-01
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Applied and Computational Math PhD
+    date: 2024-12-15
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/applied-and-computational-math
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Princeton Economics PhD
+    date: 2024-12-15
+    web: https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/economics
+    countdown: true
+    type: kampus
+    school: princeton
+
+  - name: Yale Chemical & Environmental Engineering MS
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Chemical & Environmental Engineering PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Computer Science MS
+    date: 2025-01-02
+    web: https://gsas.yale.edu/programs-of-study/computer-science
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Computer Science PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/computer-science
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Electrical Engineering MS
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/electrical-engineering
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Electrical Engineering PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/electrical-engineering
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Mechanical Engineering & Materials Science MS
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/mechanical-engineering-materials-science
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Mechanical Engineering & Materials Science PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/mechanical-engineering-materials-science
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Applied Physics MS
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/applied-physics
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Applied Physics PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/applied-physics
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Statistics & Data Science MS
+    date: 2024-12-01
+    web: https://gsas.yale.edu/programs-of-study/statistics-data-science
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Statistics & Data Science PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/statistics-data-science
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Applied Mathematics PhD
+    date: 2025-01-02
+    web: https://gsas.yale.edu/programs-of-study/applied-mathematics
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Law PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/law
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Management PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/management
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Music MS
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/music
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Music PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/music
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Political Science PhD
+    date: 2024-12-15
+    web: https://gsas.yale.edu/programs-of-study/political-science
+    countdown: true
+    type: kampus
+    school: yale
+
+  - name: Yale Psychology PhD
+    date: 2024-12-01
+    web: https://gsas.yale.edu/programs-of-study/psychology
+    countdown: true
+    type: kampus
+    school: yale
