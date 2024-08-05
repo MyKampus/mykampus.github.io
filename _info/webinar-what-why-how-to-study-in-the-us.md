@@ -5,6 +5,7 @@ permalink: info/webinar-what-why-how-to-study-in-the-us
 category: info
 featured_img: ../assets/img/poster-webinar-mykampus-001-2024.png
 description: Ayo ikut ramaikan webinar series perdana MyKampus "What, Why, and How to Study in the US?" dengan Rizki Oktavian (Purdue PhD), ⁠Laras Susanti (Pitt SJD), and ⁠Andramica Priastyo (Wharton UPenn MBA).
+image: /assets/img/poster-webinar-mykampus-001-2024.png
 ---
 
 Halo semuanya!

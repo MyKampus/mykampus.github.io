@@ -2,6 +2,8 @@
 layout: about
 title: Layanan Kami
 permalink: layanan
+description: MyKampus menawarkan layanan konsultasi pendidikan ke USA, termasuk konsultasi pribadi, review aplikasi, dan webinar gratis. Dapatkan panduan lengkap untuk meraih impian studi di Amerika Serikat.
+image: /assets/img/logo-color.png
 ---
 
 MyKampus menyediakan berbagai layanan yang dirancang untuk membantu Anda meraih impian pendidikan tinggi di Amerika Serikat. Kami menawarkan berbagai program bimbingan yang dapat disesuaikan dengan kebutuhan Anda. Berikut adalah program layanan yang kami tawarkan:

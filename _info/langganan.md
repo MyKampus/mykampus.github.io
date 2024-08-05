@@ -4,6 +4,7 @@ title: Join Komunitas MyKampus
 permalink: info/komunitas
 category: info
 description: Formulir bergabung dengan komunitas MyKampus sekaligus menerima newsletter yang berisi info terkini seputar beasiswa dan kampus di US.
+image: /assets/img/logo-color.png
 ---
 
 <div id="mc_embed_shell">

@@ -2,6 +2,8 @@
 layout: about
 title: Tentang Kami
 permalink: tentang-kami
+description: MyKampus adalah layanan konsultasi pendidikan yang didirikan dengan tujuan membantu para pelajar Indonesia meraih impian mereka untuk melanjutkan pendidikan tinggi di institusi terkemuka di Amerika Serikat.
+image: /assets/img/logo-color.png
 ---
 
 ## MyKampus

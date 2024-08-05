@@ -6,6 +6,7 @@ category: info
 # featured_img: /assets/img/mykampus-sidebar.jpeg
 featured_img_position: -100%
 description: Informasi tentang berbagai beasiswa untuk pelajar Indonesia yang ingin melanjutkan studi master atau PhD di Amerika Serikat, termasuk LPDP, Fulbright, AMINEF CCIP, CIMB ASEAN, dan Beasiswa Indonesia Maju.
+image: /assets/img/beasiswa.jpeg
 ---
 
 ## Pentingnya Beasiswa

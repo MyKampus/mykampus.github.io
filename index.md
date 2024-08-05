@@ -1,7 +1,8 @@
 ---
 layout: about
 title:  MyKampus - Wujudkan Kampus Impianmu!
-cover:  true #!! Add this
+cover:  true 
+image: /assets/img/mykampus-sidebar.jpeg
 ---
 
 Selamat datang di MyKampus, mitra terbaik Anda dalam meraih impian pendidikan tinggi di [institusi terkemuka di Amerika Serikat](info/kampus-top). Kami hadir untuk membantu Anda dalam setiap langkah perjalanan akademik Anda, mulai dari perencanaan hingga pasca-keberangkatan. Dengan layanan kami, Anda dapat fokus pada studi Anda tanpa khawatir tentang proses yang rumit dan memakan waktu. 

@@ -14,7 +14,7 @@ for record in records
    push!(events, parse_timeline_record(record))
 end
 
-months_id = YAML.load_file("_data/months_id.yml")
+months_id = YAML.load_file("_data/months_id.yml")["months_id"]
 
 # Get the current date
 current_date = Dates.today()

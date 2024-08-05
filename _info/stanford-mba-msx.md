@@ -6,6 +6,7 @@ category: info
 # featured_img: /assets/img/stanford-gsb.jpeg
 # featured_img_position: center
 description: Informasi tentang program MBA dan MSx di Stanford Graduate School of Business, termasuk keunggulan program, alumni terkenal dari Indonesia, jaringan seumur hidup, perbedaan antara kedua program, dan persyaratan dokumen untuk mendaftar.
+image: /assets/img/stanford-gsb.webp
 ---
 
 ## Stanford MBA dan MSx: Jalan Menuju Kepemimpinan Global

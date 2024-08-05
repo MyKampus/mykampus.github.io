@@ -6,6 +6,7 @@ category: info
 # featured_img: /assets/img/knight-hennessy-scholars.jpeg
 # featured_img_position: center
 description: Informasi tentang program Knight-Hennessy Scholars di Stanford University, termasuk keunggulan program, cara aplikasi, dan persyaratan untuk mendaftar.
+image: /assets/img/khs-thumbnail.jpeg
 ---
 
 ## Knight-Hennessy Scholars (KHS): Peluang Beasiswa Global di Stanford

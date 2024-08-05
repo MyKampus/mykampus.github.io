@@ -6,11 +6,12 @@ category: info
 # featured_img: /assets/img/mykampus-sidebar.jpeg
 # featured_img_position: -100%
 description: Dokumen-dokumen yang umumnya diperlukan untuk berkas pendaftaran S2 (Master) atau S3 (PhD) di Amerika Serikat beserta tips dan perkiraan waktu persiapan.
+image: /assets/img/berkas-pendaftaran.jpeg
 ---
 
 Berikut adalah dokumen-dokumen yang umumnya diperlukan untuk mendaftar program S2 atau S3 di kampus-kampus USA. Setiap kampus mungkin memiliki persyaratan yang berbeda, jadi pastikan untuk memeriksa informasi yang spesifik dari program yang Anda minati. Daftar berkas yang dibutuhkan biasanya terdapat di situs resmi program, khususnya di bagian aplikasi atau admission.
 
-![contoh-syarat-pendaftaran-MIT](../assets/img/syarat-pendaftaran.png)
+![contoh-syarat-pendaftaran-MIT](/assets/img/syarat-pendaftaran.png)
 
 ### 1. **Transkrip Akademik**
 Transkrip akademik adalah rekaman resmi dari semua mata kuliah yang diambil dan nilai yang diperoleh selama pendidikan sebelumnya. Biasanya diperlukan transkrip dari semua institusi pendidikan yang pernah Anda hadiri. Pastikan untuk meminta transkrip resmi yang ditandatangani dan distempel oleh institusi asal, dan jika perlu, diterjemahkan ke dalam bahasa Inggris. 

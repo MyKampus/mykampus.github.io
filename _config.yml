@@ -97,6 +97,7 @@ google_tag:     G-XWW0JT5SR0
 plugins:
   - jekyll-include-cache
   - jekyll-target-blank  
+  - jekyll-seo-tag
 
 menu:
   - title: Beranda

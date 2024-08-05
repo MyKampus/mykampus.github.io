@@ -2,6 +2,8 @@
 layout: about
 title: Timeline 2024
 permalink: timeline
+description: Timeline pendaftaran beasiswa dan kampus untuk periode 2024/2025. Lihat jadwal pendaftaran kampus dan beasiswa terkini di Amerika Serikat.
+image: /assets/img/sand-clock-timer.svg
 ---
 
 Untuk periode 2024/2025, timeline pendaftaran beasiswa dan kampus adalah sebagai berikut:
