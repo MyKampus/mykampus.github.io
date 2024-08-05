@@ -1,806 +1,831 @@
 events:
   - name: "Stanford GSB MBA (Round 1)"
     web: "https://applymbamsx.stanford.edu/apply/"
+    active: true
     school: "stanford"
+    id: "recfxVIMK4AL9nfhe"
     date: 2024-09-10
     countdown: true
     type: "kampus"
   - name: "Stanford Knight-Hennessy Scholars (KHS)"
     web: "https://knight-hennessy.stanford.edu/admission"
-    school: "stanford"
+    active: true
+    school: "scholarship"
+    id: "rec0a41vQVUvVZc3B"
     date: 2024-10-09
     countdown: true
     type: "beasiswa"
-  - name: "Stanford GSB MSx (Round 1)"
-    web: "https://applymbamsx.stanford.edu/apply/"
-    school: "stanford"
+  - name: "Johns Hopkins Public Policy MS"
+    web: "https://sais.jhu.edu/admissions/masters-program-admissions/how-apply/how-apply-mipp-washington-dc"
+    active: true
+    school: "johns-hopkins"
+    id: "recxxsI9URLTUN3Q1"
     date: 2024-10-15
     countdown: true
     type: "kampus"
-  - name: "Johns Hopkins Public Policy MS"
-    web: "https://sais.jhu.edu/admissions/masters-program-admissions/how-apply/how-apply-mipp-washington-dc"
-    school: "johns-hopkins"
+  - name: "Stanford GSB MSx (Round 1)"
+    web: "https://applymbamsx.stanford.edu/apply/"
+    active: true
+    school: "stanford"
+    id: "recznHZz9TtVVnJq1"
     date: 2024-10-15
     countdown: true
     type: "kampus"
   - name: "MIT Chemical Engineering MS"
     web: "https://oge.mit.edu/programs/chemical-engineering/"
+    active: true
     school: "mit"
+    id: "recYZj3wKTWP9Rjnb"
     date: 2024-11-13
     countdown: true
     type: "kampus"
   - name: "MIT Chemical Engineering PhD"
     web: "https://oge.mit.edu/programs/chemical-engineering/"
+    active: true
     school: "mit"
+    id: "recZ3av7HhNcBl9PS"
     date: 2024-11-13
     countdown: true
     type: "kampus"
   - name: "Stanford Chemical Engineering PhD"
     web: "https://cheme.stanford.edu/academics-admissions/graduate-admissions"
+    active: true
     school: "stanford"
+    id: "recM1lp3CAHtDeMv1"
     date: 2024-11-29
     countdown: true
     type: "kampus"
   - name: "Stanford Computational and Mathematical Engineering PhD"
     web: "https://icme.stanford.edu/academics-admission/icme-graduate-program-application"
+    active: true
     school: "stanford"
+    id: "recaVZDMKazBXnh6D"
     date: 2024-11-29
     countdown: true
     type: "kampus"
-  - name: "MIT Civil and Environmental Engineering MS"
-    web: "https://oge.mit.edu/programs/civil-and-environmental-engineering/"
-    school: "mit"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "MIT Civil and Environmental Engineering PhD"
-    web: "https://oge.mit.edu/programs/civil-and-environmental-engineering/"
-    school: "mit"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "MIT Materials Science and Engineering MS"
-    web: "https://oge.mit.edu/programs/materials-science-and-engineering/"
-    school: "mit"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "MIT Materials Science and Engineering PhD"
-    web: "https://oge.mit.edu/programs/materials-science-and-engineering/"
-    school: "mit"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Computational Science & Engineering MS"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Computer Science MS"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Bioengineering MS"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Electrical Engineering MS"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Environmental Science & Engineering MS"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Mechanical Engineering MS"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Mathematics MS"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Physics MS"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Mechanical Engineering PhD"
-    web: "https://me.engin.umich.edu/admissions/graduate/"
-    school: "michigan"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Environmental Health Sciences MS"
-    web: "https://sph.umich.edu/admissions/mph-mhsa-application-checklist.html"
-    school: "michigan"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Environmental Health Sciences PhD"
-    web: "https://sph.umich.edu/ehs/programs/phd.html"
-    school: "michigan"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Geography and Environmental Health PhD"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Chemical and Biological Engineering MS"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemical-and-biological-engineering"
-    school: "princeton"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Chemical and Biological Engineering PhD"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemical-and-biological-engineering"
-    school: "princeton"
-    date: 2024-12-01
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Mechanical and Aerospace Engineering MS"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering"
-    school: "princeton"
+  - name: "Yale Statistics & Data Science MS"
+    web: "https://gsas.yale.edu/programs-of-study/statistics-data-science"
+    active: true
+    school: "yale"
+    id: "rec4xgLpTDFBqj2nG"
     date: 2024-12-01
     countdown: true
     type: "kampus"
   - name: "Princeton Mechanical and Aerospace Engineering PhD"
     web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering"
+    active: true
     school: "princeton"
+    id: "rec6OsUKv5sRwpvym"
     date: 2024-12-01
     countdown: true
     type: "kampus"
-  - name: "Yale Statistics & Data Science MS"
-    web: "https://gsas.yale.edu/programs-of-study/statistics-data-science"
-    school: "yale"
+  - name: "MIT Civil and Environmental Engineering PhD"
+    web: "https://oge.mit.edu/programs/civil-and-environmental-engineering/"
+    active: true
+    school: "mit"
+    id: "rec6ZrBPfZPdFHPds"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "MIT Materials Science and Engineering PhD"
+    web: "https://oge.mit.edu/programs/materials-science-and-engineering/"
+    active: true
+    school: "mit"
+    id: "rec85ftJ5ehoSgm34"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Mechanical and Aerospace Engineering MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mechanical-and-aerospace-engineering"
+    active: true
+    school: "princeton"
+    id: "recCWbRaJz1SHoaIc"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Michigan Mechanical Engineering PhD"
+    web: "https://me.engin.umich.edu/admissions/graduate/"
+    active: true
+    school: "michigan"
+    id: "recCo4WJFvSs8Qazh"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Computational Science & Engineering MS"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recF0txBbKT53ho6A"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Chemical and Biological Engineering MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemical-and-biological-engineering"
+    active: true
+    school: "princeton"
+    id: "recH0AKjjMg3DxTyU"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Michigan Environmental Health Sciences MS"
+    web: "https://sph.umich.edu/admissions/mph-mhsa-application-checklist.html"
+    active: true
+    school: "michigan"
+    id: "recJc3pFjTSk4YyOk"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "MIT Materials Science and Engineering MS"
+    web: "https://oge.mit.edu/programs/materials-science-and-engineering/"
+    active: true
+    school: "mit"
+    id: "recMMCiHquwqFnaey"
     date: 2024-12-01
     countdown: true
     type: "kampus"
   - name: "Yale Psychology PhD"
     web: "https://gsas.yale.edu/programs-of-study/psychology"
+    active: true
     school: "yale"
+    id: "recO3G9YXzIbHeDLS"
     date: 2024-12-01
     countdown: true
     type: "kampus"
-  - name: "Stanford Bioengineering (MS and PhD)"
-    web: "https://gradadmissions.stanford.edu/explore-programs"
-    school: "stanford"
-    date: 2024-12-02
+  - name: "Harvard Computer Science MS"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recO4xJWmBM6e0xzy"
+    date: 2024-12-01
     countdown: true
     type: "kampus"
-  - name: "Stanford Mechanical Engineering (MS and PhD)"
-    web: "https://gradadmissions.stanford.edu/explore-programs"
+  - name: "Harvard Mathematics MS"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recTWX3Y5lYmJzr9p"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Electrical Engineering MS"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recWd24IAfnR5rOFC"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Environmental Science & Engineering MS"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recb3ZBwlD5hTi6dA"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Chemical and Biological Engineering PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/chemical-and-biological-engineering"
+    active: true
+    school: "princeton"
+    id: "recbVKcHJqb2utBqQ"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Bioengineering MS"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "receaTozzcDNtobDy"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Geography and Environmental Health PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    active: true
+    school: "johns-hopkins"
+    id: "recj0ipqR7NIhFOn6"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "MIT Civil and Environmental Engineering MS"
+    web: "https://oge.mit.edu/programs/civil-and-environmental-engineering/"
+    active: true
+    school: "mit"
+    id: "reclMb5byTEpnvTX3"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Mechanical Engineering MS"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recmaqSYyQToghLqU"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Physics MS"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recp2yT6uD7IiSmKK"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Michigan Environmental Health Sciences PhD"
+    web: "https://sph.umich.edu/ehs/programs/phd.html"
+    active: true
+    school: "michigan"
+    id: "recrjuYHynw0l36Du"
+    date: 2024-12-01
+    countdown: true
+    type: "kampus"
+  - name: "Stanford Mechanical Engineering MS"
+    web: "https://me.stanford.edu/academics-admissions/graduate-programs"
+    active: true
     school: "stanford"
+    id: "recOqE79R0UTqZqfg"
     date: 2024-12-02
     countdown: true
     type: "kampus"
   - name: "Stanford Management Science and Engineering PhD"
     web: "https://msande.stanford.edu/academics-admissions/graduate/admission#eligibility"
+    active: true
     school: "stanford"
-    date: 2024-12-02
-    countdown: true
-    type: "kampus"
-  - name: "Stanford Mechanical Engineering MS"
-    web: "https://me.stanford.edu/academics-admissions/graduate-programs"
-    school: "stanford"
+    id: "recZGvSsVcP7epoh5"
     date: 2024-12-02
     countdown: true
     type: "kampus"
   - name: "Stanford Mechanical Engineering PhD"
     web: "https://me.stanford.edu/academics-admissions/graduate-programs"
+    active: true
     school: "stanford"
+    id: "recfJcc2dbXlGawwZ"
     date: 2024-12-02
     countdown: true
     type: "kampus"
-  - name: "Stanford Aeronautics and Astronautics Engineering (MS and PhD)"
+  - name: "Stanford Bioengineering (MS and PhD)"
     web: "https://gradadmissions.stanford.edu/explore-programs"
+    active: true
     school: "stanford"
-    date: 2024-12-03
+    id: "recgTyOq0ljwkBwua"
+    date: 2024-12-02
     countdown: true
     type: "kampus"
-  - name: "Stanford Health Policy (PhD)"
+  - name: "Stanford Mechanical Engineering (MS and PhD)"
     web: "https://gradadmissions.stanford.edu/explore-programs"
+    active: true
     school: "stanford"
-    date: 2024-12-03
+    id: "rechwgERYKNn5Thz4"
+    date: 2024-12-02
     countdown: true
     type: "kampus"
   - name: "Stanford Civil and Environmental Engineering (MS and PhD)"
     web: "https://gradadmissions.stanford.edu/explore-programs"
+    active: true
     school: "stanford"
+    id: "recDKTXwlbtwbNU4O"
     date: 2024-12-03
     countdown: true
     type: "kampus"
   - name: "Stanford Computer Science (MS and PhD)"
     web: "https://gradadmissions.stanford.edu/explore-programs"
+    active: true
     school: "stanford"
+    id: "recWEwWEr1MYRCtaD"
+    date: 2024-12-03
+    countdown: true
+    type: "kampus"
+  - name: "Stanford Aeronautics and Astronautics Engineering (MS and PhD)"
+    web: "https://gradadmissions.stanford.edu/explore-programs"
+    active: true
+    school: "stanford"
+    id: "recaiuvGC9qLSPXlF"
     date: 2024-12-03
     countdown: true
     type: "kampus"
   - name: "Stanford Material Science and Engineering PhD"
     web: "https://mse.stanford.edu/academics-admissions"
+    active: true
     school: "stanford"
+    id: "receUNejlrJxQi0Up"
     date: 2024-12-03
     countdown: true
     type: "kampus"
-  - name: "Stanford Computer Science MS"
-    web: "https://www.cs.stanford.edu/admissions/graduate-application-checklists"
+  - name: "Stanford Health Policy (PhD)"
+    web: "https://gradadmissions.stanford.edu/explore-programs"
+    active: true
     school: "stanford"
+    id: "reckPtLJCJcvQQYwJ"
     date: 2024-12-03
     countdown: true
     type: "kampus"
   - name: "Stanford Computer Science PhD"
     web: "https://www.cs.stanford.edu/admissions/graduate-application-checklists"
+    active: true
     school: "stanford"
+    id: "recviMxI1Hnh8A2jT"
+    date: 2024-12-03
+    countdown: true
+    type: "kampus"
+  - name: "Stanford Computer Science MS"
+    web: "https://www.cs.stanford.edu/admissions/graduate-application-checklists"
+    active: true
+    school: "stanford"
+    id: "recyYHgfj9g43L8aW"
     date: 2024-12-03
     countdown: true
     type: "kampus"
   - name: "Stanford Statistics PhD"
     web: "https://statistics.stanford.edu/admissions/statistics-phd-admissions/phd-admissions-requirements-and-procedures"
+    active: true
     school: "stanford"
+    id: "recCYsiLBu3p4tSGJ"
     date: 2024-12-04
-    countdown: true
-    type: "kampus"
-  - name: "Stanford Earth and Planetary Sciences (MS and PhD)"
-    web: "https://gradadmissions.stanford.edu/explore-programs"
-    school: "stanford"
-    date: 2024-12-06
     countdown: true
     type: "kampus"
   - name: "Stanford Electrical Engineering MS"
     web: "https://ee.stanford.edu/admissions/overview-of-programs"
+    active: true
     school: "stanford"
+    id: "rec0vlaVeXVWff74Y"
+    date: 2024-12-06
+    countdown: true
+    type: "kampus"
+  - name: "Stanford Earth and Planetary Sciences (MS and PhD)"
+    web: "https://gradadmissions.stanford.edu/explore-programs"
+    active: true
+    school: "stanford"
+    id: "recHDbu5azwmmvPIV"
     date: 2024-12-06
     countdown: true
     type: "kampus"
   - name: "Stanford Electrical Engineering PhD"
     web: "https://ee.stanford.edu/admissions/overview-of-programs"
+    active: true
     school: "stanford"
+    id: "recgWQcbA1YwzfL8i"
     date: 2024-12-06
     countdown: true
     type: "kampus"
   - name: "Stanford Management Science and Engineering MS"
     web: "https://msande.stanford.edu/academics-admissions/graduate/admission#eligibility"
+    active: true
     school: "stanford"
+    id: "recHMSpQVXbrkRbeB"
     date: 2024-12-10
     countdown: true
     type: "kampus"
   - name: "Michigan Industrial and Operations Engineering PhD"
     web: "https://ioe.engin.umich.edu/graduate/phd-program/phd-applications/"
+    active: true
     school: "michigan"
+    id: "recHbuNvlyDOnkOO4"
     date: 2024-12-10
+    countdown: true
+    type: "kampus"
+  - name: "Yale Political Science PhD"
+    web: "https://gsas.yale.edu/programs-of-study/political-science"
+    active: true
+    school: "yale"
+    id: "rec1YlvL8RcMbwySC"
+    date: 2024-12-15
     countdown: true
     type: "kampus"
   - name: "MIT Mechanical Engineering MS"
     web: "https://oge.mit.edu/programs/mechanical-engineering/"
+    active: true
     school: "mit"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Mechanical Engineering PhD"
-    web: "https://oge.mit.edu/programs/mechanical-engineering/"
-    school: "mit"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Nuclear Science and Engineering MS"
-    web: "https://oge.mit.edu/programs/nuclear-science-and-engineering/"
-    school: "mit"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Nuclear Science and Engineering PhD"
-    web: "https://oge.mit.edu/programs/nuclear-science-and-engineering/"
-    school: "mit"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Operations Research Center MS"
-    web: "https://oge.mit.edu/programs/operations-research-center/"
-    school: "mit"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Operations Research Center PhD"
-    web: "https://oge.mit.edu/programs/operations-research-center/"
-    school: "mit"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Political Science MS"
-    web: "https://oge.mit.edu/programs/political-science/"
-    school: "mit"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Political Science PhD"
-    web: "https://oge.mit.edu/programs/political-science/"
-    school: "mit"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Computational Science & Engineering PhD"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Computer Science PhD"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Bioengineering PhD"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Electrical Engineering PhD"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Environmental Science & Engineering PhD"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Mechanical Engineering PhD"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Mathematics PhD"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Harvard Physics PhD"
-    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
-    school: "harvard"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Environmental Engineering PhD"
-    web: "https://cee.engin.umich.edu/graduate-studies/admissions-information/"
-    school: "michigan"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Civil Engineering PhD"
-    web: "https://cee.engin.umich.edu/graduate-studies/admissions-information/"
-    school: "michigan"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Electrical and Computer Engineering PhD"
-    web: "https://ece.engin.umich.edu/academics/graduate-programs/prospective-grad-students/apply-for-grad/"
-    school: "michigan"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Naval Architecture and Marine Engineering PhD"
-    web: "https://name.engin.umich.edu/home/academics/graduate-studies/ph-d-degree/"
-    school: "michigan"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Mathematics PhD"
-    web: "https://lsa.umich.edu/math/graduates/GraduateStudentHandbook/ph-d-programs1.html"
-    school: "michigan"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Chemical and Biomolecular Engineering PhD"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Computer Science PhD"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Materials Science MS"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Mechanical Engineering MS"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Mechanical Engineering PhD"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Computer Science MS"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
-    school: "princeton"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Computer Science PhD"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
-    school: "princeton"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Electrical and Computer Engineering PhD"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering"
-    school: "princeton"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Applied and Computational Math PhD"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/applied-and-computational-math"
-    school: "princeton"
+    id: "rec5xuaxz9MBAH1GA"
     date: 2024-12-15
     countdown: true
     type: "kampus"
   - name: "Princeton Economics PhD"
     web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/economics"
+    active: true
     school: "princeton"
+    id: "rec7Pkx3wyJkgDAMd"
     date: 2024-12-15
     countdown: true
     type: "kampus"
-  - name: "Yale Chemical & Environmental Engineering MS"
-    web: "https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering"
-    school: "yale"
+  - name: "MIT Mechanical Engineering PhD"
+    web: "https://oge.mit.edu/programs/mechanical-engineering/"
+    active: true
+    school: "mit"
+    id: "rec8CcFDv7W2njLAq"
     date: 2024-12-15
     countdown: true
     type: "kampus"
-  - name: "Yale Chemical & Environmental Engineering PhD"
-    web: "https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering"
-    school: "yale"
+  - name: "Johns Hopkins Mechanical Engineering PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    active: true
+    school: "johns-hopkins"
+    id: "rec8CxPNaSETJRkJX"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Michigan Naval Architecture and Marine Engineering PhD"
+    web: "https://name.engin.umich.edu/home/academics/graduate-studies/ph-d-degree/"
+    active: true
+    school: "michigan"
+    id: "rec98ubDwY59ytj7H"
     date: 2024-12-15
     countdown: true
     type: "kampus"
   - name: "Yale Computer Science PhD"
     web: "https://gsas.yale.edu/programs-of-study/computer-science"
+    active: true
     school: "yale"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Yale Electrical Engineering MS"
-    web: "https://gsas.yale.edu/programs-of-study/electrical-engineering"
-    school: "yale"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Yale Electrical Engineering PhD"
-    web: "https://gsas.yale.edu/programs-of-study/electrical-engineering"
-    school: "yale"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Yale Mechanical Engineering & Materials Science MS"
-    web: "https://gsas.yale.edu/programs-of-study/mechanical-engineering-materials-science"
-    school: "yale"
+    id: "rec9nJfzQHxmjxOA7"
     date: 2024-12-15
     countdown: true
     type: "kampus"
   - name: "Yale Mechanical Engineering & Materials Science PhD"
     web: "https://gsas.yale.edu/programs-of-study/mechanical-engineering-materials-science"
+    active: true
     school: "yale"
+    id: "recAgpXyRWfKCKAY2"
     date: 2024-12-15
     countdown: true
     type: "kampus"
-  - name: "Yale Applied Physics MS"
-    web: "https://gsas.yale.edu/programs-of-study/applied-physics"
-    school: "yale"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Yale Applied Physics PhD"
-    web: "https://gsas.yale.edu/programs-of-study/applied-physics"
-    school: "yale"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Yale Statistics & Data Science PhD"
-    web: "https://gsas.yale.edu/programs-of-study/statistics-data-science"
-    school: "yale"
+  - name: "MIT Nuclear Science and Engineering MS"
+    web: "https://oge.mit.edu/programs/nuclear-science-and-engineering/"
+    active: true
+    school: "mit"
+    id: "recBLHdmFlFcEJqvx"
     date: 2024-12-15
     countdown: true
     type: "kampus"
   - name: "Yale Law PhD"
     web: "https://gsas.yale.edu/programs-of-study/law"
+    active: true
     school: "yale"
+    id: "recBZowXEiYfqQJ3L"
     date: 2024-12-15
     countdown: true
     type: "kampus"
-  - name: "Yale Management PhD"
-    web: "https://gsas.yale.edu/programs-of-study/management"
+  - name: "Yale Electrical Engineering PhD"
+    web: "https://gsas.yale.edu/programs-of-study/electrical-engineering"
+    active: true
     school: "yale"
+    id: "recGfkqR10145DJ9N"
     date: 2024-12-15
     countdown: true
     type: "kampus"
-  - name: "Yale Music MS"
-    web: "https://gsas.yale.edu/programs-of-study/music"
+  - name: "Harvard Mechanical Engineering PhD"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recGgpG9reYbk73wd"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Michigan Mathematics PhD"
+    web: "https://lsa.umich.edu/math/graduates/GraduateStudentHandbook/ph-d-programs1.html"
+    active: true
+    school: "michigan"
+    id: "recGvQrwKFPtLnHoP"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "MIT Political Science PhD"
+    web: "https://oge.mit.edu/programs/political-science/"
+    active: true
+    school: "mit"
+    id: "recHCzROeUCcbPyoI"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Mechanical Engineering MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    active: true
+    school: "johns-hopkins"
+    id: "recHlrZQIL8rme5QO"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "MIT Nuclear Science and Engineering PhD"
+    web: "https://oge.mit.edu/programs/nuclear-science-and-engineering/"
+    active: true
+    school: "mit"
+    id: "recJPwL5FYCoZCSiw"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Applied and Computational Math PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/applied-and-computational-math"
+    active: true
+    school: "princeton"
+    id: "recNhhjASsKEQN895"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Mechanical Engineering & Materials Science MS"
+    web: "https://gsas.yale.edu/programs-of-study/mechanical-engineering-materials-science"
+    active: true
     school: "yale"
+    id: "recO3R0ceNw3lkAW9"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Michigan Electrical and Computer Engineering PhD"
+    web: "https://ece.engin.umich.edu/academics/graduate-programs/prospective-grad-students/apply-for-grad/"
+    active: true
+    school: "michigan"
+    id: "recOVnwtK2ujq3T0U"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Statistics & Data Science PhD"
+    web: "https://gsas.yale.edu/programs-of-study/statistics-data-science"
+    active: true
+    school: "yale"
+    id: "recPELt8yA8i5rE7T"
     date: 2024-12-15
     countdown: true
     type: "kampus"
   - name: "Yale Music PhD"
     web: "https://gsas.yale.edu/programs-of-study/music"
+    active: true
     school: "yale"
+    id: "recS090YwAjsukynF"
     date: 2024-12-15
     countdown: true
     type: "kampus"
-  - name: "Yale Political Science PhD"
-    web: "https://gsas.yale.edu/programs-of-study/political-science"
-    school: "yale"
-    date: 2024-12-15
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Electrical and Computer MS"
+  - name: "Johns Hopkins Computer Science PhD"
     web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    active: true
     school: "johns-hopkins"
-    date: 2024-12-22
+    id: "recSWBNh1SvijusYF"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Michigan Environmental Engineering PhD"
+    web: "https://cee.engin.umich.edu/graduate-studies/admissions-information/"
+    active: true
+    school: "michigan"
+    id: "recTGRs7SHjMbUvkm"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Chemical and Biomolecular Engineering PhD"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    active: true
+    school: "johns-hopkins"
+    id: "recVAte81BSqvBkyt"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Materials Science MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    active: true
+    school: "johns-hopkins"
+    id: "recVc2lYjorc0xFsZ"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Computer Science PhD"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recYGP8TIx9yVmROn"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Mathematics PhD"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recYhDIKP9guWNHS2"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Environmental Science & Engineering PhD"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recZLcVw3bwrVQJ5S"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Electrical and Computer Engineering PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering"
+    active: true
+    school: "princeton"
+    id: "recbioMaCnAVbPYb7"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "MIT Operations Research Center PhD"
+    web: "https://oge.mit.edu/programs/operations-research-center/"
+    active: true
+    school: "mit"
+    id: "recbtEH8hYZhbmv0R"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Electrical Engineering PhD"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recdAsfI0G4Zb3qPL"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Chemical & Environmental Engineering PhD"
+    web: "https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering"
+    active: true
+    school: "yale"
+    id: "receLSwrrtIBEoRT2"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "MIT Political Science MS"
+    web: "https://oge.mit.edu/programs/political-science/"
+    active: true
+    school: "mit"
+    id: "receh47v178xjqBGf"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Chemical & Environmental Engineering MS"
+    web: "https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering"
+    active: true
+    school: "yale"
+    id: "recf9LXAv9XPM95QK"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Computer Science PhD"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
+    active: true
+    school: "princeton"
+    id: "reciBCMdEOifppMtw"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Princeton Computer Science MS"
+    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
+    active: true
+    school: "princeton"
+    id: "recizhCWELiiCgPTJ"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "MIT Operations Research Center MS"
+    web: "https://oge.mit.edu/programs/operations-research-center/"
+    active: true
+    school: "mit"
+    id: "reckuBaF68wJhlvoE"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Physics PhD"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recmMlwY2TML0W8wb"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Computational Science & Engineering PhD"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "recmwGbfRn1j3c1Bu"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Electrical Engineering MS"
+    web: "https://gsas.yale.edu/programs-of-study/electrical-engineering"
+    active: true
+    school: "yale"
+    id: "recmxclWoMHNmCKyU"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Applied Physics MS"
+    web: "https://gsas.yale.edu/programs-of-study/applied-physics"
+    active: true
+    school: "yale"
+    id: "recqEYP5zglvbN87L"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Michigan Civil Engineering PhD"
+    web: "https://cee.engin.umich.edu/graduate-studies/admissions-information/"
+    active: true
+    school: "michigan"
+    id: "recsg6slXlQVK9Gh6"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Harvard Bioengineering PhD"
+    web: "https://live-gsas-9.pantheonsite.io/apply/applying-degree-programs"
+    active: true
+    school: "harvard"
+    id: "rectJ6D8mcf8Lvb3t"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Applied Physics PhD"
+    web: "https://gsas.yale.edu/programs-of-study/applied-physics"
+    active: true
+    school: "yale"
+    id: "rectXq5YX8psluhOD"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Management PhD"
+    web: "https://gsas.yale.edu/programs-of-study/management"
+    active: true
+    school: "yale"
+    id: "recxHNwKNXeqHFtjn"
+    date: 2024-12-15
+    countdown: true
+    type: "kampus"
+  - name: "Yale Music MS"
+    web: "https://gsas.yale.edu/programs-of-study/music"
+    active: true
+    school: "yale"
+    id: "reczYIgIJ7jSZYGFu"
+    date: 2024-12-15
     countdown: true
     type: "kampus"
   - name: "Johns Hopkins Electrical and Computer PhD"
     web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    active: true
     school: "johns-hopkins"
+    id: "rec5mfSwKJVGG8tH2"
+    date: 2024-12-22
+    countdown: true
+    type: "kampus"
+  - name: "Johns Hopkins Electrical and Computer MS"
+    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
+    active: true
+    school: "johns-hopkins"
+    id: "recZZyVA4vu7IdmdV"
     date: 2024-12-22
     countdown: true
     type: "kampus"
   - name: "Beasiswa AMINEF CCIP (Non-Degree)"
     web: "https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/fellowships/community-college-initiative-program/"
+    active: true
+    school: "scholarship"
+    id: "receD9TjR5axWHAxc"
     date: 2024-12-31
     countdown: true
     type: "beasiswa"
-  - name: "Johns Hopkins Civil Engineering PhD"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2024-12-31
-    countdown: true
-    type: "kampus"
-  - name: "Yale Computer Science MS"
-    web: "https://gsas.yale.edu/programs-of-study/computer-science"
-    school: "yale"
-    date: 2025-01-02
-    countdown: true
-    type: "kampus"
-  - name: "Yale Applied Mathematics PhD"
-    web: "https://gsas.yale.edu/programs-of-study/applied-mathematics"
-    school: "yale"
-    date: 2025-01-02
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Architecture MS"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/architecture"
-    school: "princeton"
-    date: 2025-01-03
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Architecture PhD"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/architecture"
-    school: "princeton"
-    date: 2025-01-03
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Civil and Environmental Engineering MS"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/civil-and-environmental-engineering"
-    school: "princeton"
-    date: 2025-01-03
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Civil and Environmental Engineering PhD"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/civil-and-environmental-engineering"
-    school: "princeton"
-    date: 2025-01-03
-    countdown: true
-    type: "kampus"
-  - name: "Princeton Electrical and Computer Engineering MS"
-    web: "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering"
-    school: "princeton"
-    date: 2025-01-03
-    countdown: true
-    type: "kampus"
-  - name: "Stanford GSB MSx (Round 2)"
-    web: "https://applymbamsx.stanford.edu/apply/"
-    school: "stanford"
-    date: 2025-01-08
-    countdown: true
-    type: "kampus"
-  - name: "Stanford GSB MBA (Round 2)"
-    web: "https://applymbamsx.stanford.edu/apply/"
-    school: "stanford"
-    date: 2025-01-08
-    countdown: true
-    type: "kampus"
-  - name: "Stanford Chemical Engineering MS"
-    web: "https://cheme.stanford.edu/academics-admissions/graduate-admissions"
-    school: "stanford"
-    date: 2025-01-09
-    countdown: true
-    type: "kampus"
-  - name: "Stanford Material Science and Engineering MS"
-    web: "https://mse.stanford.edu/academics-admissions"
-    school: "stanford"
-    date: 2025-01-14
-    countdown: true
-    type: "kampus"
-  - name: "Stanford Statistics MS"
-    web: "https://statistics.stanford.edu/msadmissions/external-candidates"
-    school: "stanford"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Transportation MS"
-    web: "https://oge.mit.edu/programs/transportation/"
-    school: "mit"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "MIT Transportation PhD"
-    web: "https://oge.mit.edu/programs/transportation/"
-    school: "mit"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Environmental Engineering MS"
-    web: "https://cee.engin.umich.edu/graduate-studies/admissions-information/"
-    school: "michigan"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Civil Engineering MS"
-    web: "https://cee.engin.umich.edu/graduate-studies/admissions-information/"
-    school: "michigan"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Electrical and Computer Engineering MS"
-    web: "https://ece.engin.umich.edu/academics/graduate-programs/prospective-grad-students/apply-for-grad/"
-    school: "michigan"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Industrial and Operations Engineering MS"
-    web: "https://ioe.engin.umich.edu/graduate/masters-program/masters-applications/"
-    school: "michigan"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Mechanical Engineering MS"
-    web: "https://me.engin.umich.edu/admissions/graduate/"
-    school: "michigan"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Naval Architecture and Marine Engineering MS"
-    web: "https://name.engin.umich.edu/home/academics/graduate-studies/graduate-admissions/"
-    school: "michigan"
-    date: 2025-01-15
-    countdown: true
-    type: "kampus"
-  - name: "Stanford Health Policy (MS)"
-    web: "https://gradadmissions.stanford.edu/explore-programs"
-    school: "stanford"
-    date: 2025-01-23
-    countdown: true
-    type: "kampus"
-  - name: "Stanford Computational and Mathematical Engineering MS"
-    web: "https://icme.stanford.edu/academics-admission/icme-graduate-program-application"
-    school: "stanford"
-    date: 2025-01-31
-    countdown: true
-    type: "kampus"
-  - name: "Michigan Mathematics MS"
-    web: "https://lsa.umich.edu/math/graduates/GraduateStudentHandbook/mathematics-master-s-degree.html"
-    school: "michigan"
-    date: 2025-02-01
-    countdown: true
-    type: "kampus"
-  - name: "Stanford GSB MSx (Round 3)"
-    web: "https://applymbamsx.stanford.edu/apply/"
-    school: "stanford"
-    date: 2025-02-13
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Computer Science MS"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2025-02-15
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Materials Science PhD"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2025-02-15
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Civil Engineering MS"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2025-03-01
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Geography and Environmental Health MS"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2025-03-01
-    countdown: true
-    type: "kampus"
-  - name: "Stanford GSB MBA (Round 3)"
-    web: "https://applymbamsx.stanford.edu/apply/"
-    school: "stanford"
-    date: 2025-04-08
-    countdown: true
-    type: "kampus"
-  - name: "Johns Hopkins Chemical and Biomolecular Engineering MS"
-    web: "https://engineering.jhu.edu/admissions/graduate-admissions/full-time-programs/how-to-apply/application-deadlines/"
-    school: "johns-hopkins"
-    date: 2025-05-01
-    countdown: true
-    type: "kampus"
   - name: "Beasiswa LPDP (Batch 2)"
     web: "https://beasiswa.lpdp.kemenkeu.go.id/"
+    active: true
+    school: "scholarship"
+    id: "recxKy2fSU0d4zrEY"
     date: 2024-07-18
     countdown: true
     type: "beasiswa"
   - name: "Beasiswa CIMB Niaga 2024"
     web: "https://www.cimb.com/en/careers/students/cimb-asean-scholarship.html"
+    active: true
+    school: "scholarship"
+    id: "recNE1OKg0eRjG0tk"
     date: 2024-06-30
     countdown: true
     type: "beasiswa"
   - name: "Beasiswa Indonesia Maju Kemdikbud (Luar Negeri)"
     web: "https://beasiswa.kemdikbud.go.id/"
+    active: true
+    school: "scholarship"
+    id: "recEreqR7kKgyczbx"
     date: 2024-05-31
     countdown: true
     type: "beasiswa"
   - name: "Beasiswa Fulbright PhD"
     web: "https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/scholarship/fulbright-doctoral-degree-phd-scholarship/"
+    active: true
+    school: "scholarship"
+    id: "recZsbHL602cnDPR5"
     date: 2024-02-15
     countdown: true
     type: "beasiswa"
   - name: "Beasiswa LPDP (Batch 1)"
     web: "https://beasiswa.lpdp.kemenkeu.go.id/"
+    active: true
+    school: "scholarship"
+    id: "recbabyGckGwf5zlt"
     date: 2024-02-10
     countdown: true
     type: "beasiswa"
 months_id:
-  - "Jan"
-  - "Feb"
-  - "Mar"
-  - "Apr"
-  - "Mei"
-  - "Jun"
-  - "Jul"
-  - "Agu"
-  - "Sep"
-  - "Okt"
-  - "Nov"
-  - "Des"
+  months_id:
+    - "Jan"
+    - "Feb"
+    - "Mar"
+    - "Apr"
+    - "Mei"
+    - "Jun"
+    - "Jul"
+    - "Agu"
+    - "Sep"
+    - "Okt"
+    - "Nov"
+    - "Des"

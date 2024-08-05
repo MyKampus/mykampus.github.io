@@ -1,13 +1,14 @@
 timeline:
-	julia _code/timeline.jl
+	julia --project=_code _code/sync_timeline.jl
 
-build:
-	bundle exec jekyll build
+serve:
+	bundle exec jekyll serve
 
-test: timeline build
+test: timeline serve
 
 push: 
-	timeline
 	git add .
 	git commit -m "Updated timeline"
 	git push
+
+all: timeline push

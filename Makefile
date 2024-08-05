@@ -1,5 +1,5 @@
 timeline:
-	julia _code/timeline.jl
+	julia --project=_code _code/sync_timeline.jl
 
 serve:
 	bundle exec jekyll serve
