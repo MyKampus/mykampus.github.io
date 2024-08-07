@@ -16,12 +16,14 @@ author:
 
 
 legal:
-  # - title:             LICENSE
-  #   url:               /LICENSE
+  - title:             TERMS
+    url:               /ketentuan-penggunaan-layanan
   - title:             NOTICE
     url:               /NOTICE
-  # - title:             CHANGELOG
-    # url:               /CHANGELOG
+  - title:             REFUND
+    url:               /refund
+  - title:             PRIVACY
+    url:               /privacy
    
 
 accent_image:          /assets/img/mykampus-sidebar.jpeg
