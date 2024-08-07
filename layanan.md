@@ -14,7 +14,7 @@ Program webinar interaktif yang mengundang alumni/mahasiswa kampus di Amerika Se
 
 ## One-on-One Mentoring 
 
-Layanan bimbingan individu ini dirancang untuk memberikan perhatian khusus dan panduan yang dipersonalisasi sesuai dengan kebutuhan Anda. Setiap sesi berlangsung selama satu jam dan diadakan dua kali dalam sebulan.
+Layanan bimbingan individu ini dirancang untuk memberikan perhatian khusus dan panduan yang dipersonalisasi sesuai dengan kebutuhan Anda. Setiap sesi berlangsung selama satu jam dan diadakan dua kali dalam sebulan. [Order sekarang](/order)!
 
 **Konsep Layanan:**
 - 4 pertemuan jarak jauh selama satu jam setiap dua minggu.
@@ -23,7 +23,7 @@ Layanan bimbingan individu ini dirancang untuk memberikan perhatian khusus dan p
 
 ## Group Consultations
 
-Layanan konsultasi kelompok ini memungkinkan Anda untuk berbagi pengalaman dan belajar bersama dengan peserta lain. Setiap sesi berlangsung selama satu setengah jam dan diadakan sebulan sekali.
+Layanan konsultasi kelompok ini memungkinkan Anda untuk berbagi pengalaman dan belajar bersama dengan peserta lain. Setiap sesi berlangsung selama satu setengah jam dan diadakan sebulan sekali. [Order disini](/order)!
 
 **Konsep Layanan:**
 - Kelompok hingga 4 orang.
@@ -32,14 +32,25 @@ Layanan konsultasi kelompok ini memungkinkan Anda untuk berbagi pengalaman dan b
 
 ## Review Dokumen Aplikasi
 
-Kami menawarkan layanan review dokumen aplikasi untuk memastikan aplikasi Anda menonjol dan sesuai dengan persyaratan yang diminta oleh universitas dan lembaga beasiswa.
+Kami menawarkan layanan review dokumen aplikasi untuk memastikan aplikasi Anda menonjol dan sesuai dengan persyaratan yang diminta oleh universitas dan lembaga beasiswa. [Request review sekarang juga](/order)!
 
 **Konsep Layanan:**
 - Review dokumen aplikasi (CV, surat motivasi, proposal penelitian, dll.).
 - Feedback diberikan dalam waktu 48 jam.
 - Saran perbaikan dan penyesuaian untuk meningkatkan kualitas aplikasi Anda.
 
-## MyKampus Cohort
+## MyKampus Springboard: Akselerasi Persiapan Berkas 
+
+Program ini dirancang untuk membantu Anda mempersiapkan aplikasi kampus dan beasiswa dalam waktu singkat. Program ini berlangsung selama dua minggu dengan empat pertemuan jarak jauh. Tiap sesi berlangsung selama dua jam. Anda akan melakukan peer review dan mendapatkan feedback dari mentor. Untuk mengikuti sesi ini, Anda harus sudah memiliki draft aplikasi yang akan diperbaiki. [Join sekarang](/order)!
+
+**Konsep Layanan:**
+- 4 pertemuan jarak jauh selama 2 jam setiap minggu.
+- Feedback dari peer dan mentor.
+- Persiapan aplikasi kampus dan beasiswa dalam waktu singkat.
+- Draft berkas Anda harus sudah siap sebelum program dimulai.
+- Draft Anda akan mendapatkan feedback dan perbaikan dari mentor dan sesama peserta.
+
+## MyKampus Cohort (Coming soon)
 
 Program kohort ini dirancang untuk memberikan bimbingan intensif dan dukungan komunitas bagi kelompok yang lebih besar. Program ini berlangsung selama enam bulan dengan pertemuan bulanan dan feedback aplikasi.
 
@@ -48,6 +59,11 @@ Program kohort ini dirancang untuk memberikan bimbingan intensif dan dukungan ko
 - 6 pertemuan jarak jauh selama 2 jam setiap bulan.
 - 3 feedback aplikasi selama program.
 - Dukungan dari sesama peserta dan mentor untuk mencapai tujuan akademik Anda.
+
+
+## Pemesanan
+
+Anda dapat mendaftar layanan diatas melalui [halaman pemesanan](/order).
 
 ## Hubungi Kami
 
