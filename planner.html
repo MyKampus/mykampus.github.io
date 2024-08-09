@@ -108,6 +108,7 @@
             text-align: center;
             color: var(--black);
             opacity: 0.5;
+            display: none;
         }
         
         .page-footer span {
@@ -155,19 +156,20 @@
             <!-- Months will be dynamically inserted here -->
         </ul>
         <ul class="chart-bars">
-            <li data-duration="0.5" data-color="#b03532" data-progress="90">Pemilihan Beasiswa</li>
-            <li data-duration="0.5" data-color="#f07474" data-progress="90">Pemilihan Program</li>
-            <li data-duration="1." data-color="#928ff3" data-progress="35">Statement of Purpose</li>
-            <li data-duration="1." data-color="#33a8a5" data-progress="50">Surat Rekomendasi</li>
-            <li data-duration="1." data-color="#47ef45" data-progress="75">Transkrip & Ijazah</li>
-            <li data-duration="1." data-color="#da6f2b" data-progress="90">Resume/CV</li>
-            <li data-duration="1.5." data-color="#7bc4e6" data-progress="25">Tes TOEFL IBT</li>
-            <li data-duration="0.8" data-color="#f2b134" data-progress="0">Pengisian Formulir</li>
+            <li data-duration="0.5" data-color="#f2b134" data-progress="90">Pemilihan Beasiswa</li>
+            <li data-duration="0.5" data-color="#da6f2b" data-progress="90">Pemilihan Program</li>
+            <li data-duration="1." data-color="#f16666" data-progress="35">Statement of Purpose</li>
+            <li data-duration="1." data-color="#928ff3" data-progress="50">Surat Rekomendasi</li>
+            <li data-duration="1." data-color="#6f8ffb" data-progress="75">Transkrip & Ijazah</li>
+            <li data-duration="1." data-color="#4cc2f0" data-progress="90">Resume/CV</li>
+            <li data-duration="1.5." data-color="#81c469" data-progress="50">Tes TOEFL IBT</li>
+            <li data-duration="1." data-color="#6ef388" data-progress="80">Tes GRE</li>
+            <li data-duration="0.8" data-color="#34f91d" data-progress="4">Pengisian Formulir</li>
         </ul>
         <div class="deadline">
-            <img style="display:none;" src="/assets/icons/stanford.ico" alt="Stanford GSB Icon">
+            <img  src="/assets/icons/stanford.ico" alt="Stanford Icon">
             <span class="deadline-text">Submission Deadline</span>
-            <span style="display:none;" class="deadline-text">(Stanford MCIM, Round 1)</span>
+            <span class="deadline-text">(Stanford MCIM, R1)</span>
             <span id="deadline-date" class="deadline-text"></span>
         </div>
         <div class="deadline-line"></div>
@@ -206,7 +208,7 @@
         ];
 
         function createChart() {
-            const deadlineDate = new Date("2024-09-10");//new Date(document.getElementById('deadlineDate').value);
+            const deadlineDate = new Date("2024-11-15");//new Date(document.getElementById('deadlineDate').value);
             const chartValues = document.querySelector(".chart-values");
             const tasks = document.querySelectorAll(".chart-bars li");
             const deadline = document.querySelector(".deadline");
