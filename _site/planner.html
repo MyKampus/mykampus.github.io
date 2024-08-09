@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refined Grad School Admission Timeline Planner</title>
+    <title>Corrected Fixed-Width Deadline-based Grad School Admission Timeline Planner</title>
     <style>
         :root {
             --white: #fff;
@@ -34,19 +34,15 @@
             font-family: sans-serif;
             padding-top: 40px;
         }
-
-        .month-label {
-            margin-left: 40px;
-        }
         
         .chart-wrapper {
-            max-width: 1150px;
+            width: 1000px;
             padding: 0 10px;
             margin: 0 auto;
             position: relative;
         }
         
-        .chart-wrapper .chart-values {
+        .chart-values {
             position: relative;
             display: flex;
             margin-bottom: 20px;
@@ -54,14 +50,13 @@
             font-size: 1rem;
         }
         
-        .chart-wrapper .chart-values li {
+        .chart-values li {
             flex: 1;
-            min-width: 80px;
             text-align: center;
             position: relative;
         }
         
-        .chart-wrapper .chart-values li span {
+        .chart-values li span {
             position: absolute;
             left: 50%;
             top: 50%;
@@ -71,7 +66,7 @@
             z-index: 2;
         }
         
-        .chart-wrapper .chart-values li:not(:last-child)::before {
+        .chart-values li:not(:last-child)::before {
             content: '';
             position: absolute;
             right: 0;
@@ -79,32 +74,32 @@
             border-right: 1px solid var(--divider);
         }
         
-        .chart-wrapper .chart-bars li {
-            position: relative;
-            color: var(--text);
-            margin-bottom: 15px;
-            font-size: 16px;
-            border-radius: 20px;
-            padding: 10px 20px;
-            width: 0;
-            opacity: 0;
+        .chart-bars li {
+            position: absolute;
+            height: 20px;
+            background-color: transparent;
+            border-radius: 10px;
             transition: all 0.65s linear 0.2s;
-            overflow: hidden;
+            overflow: visible;
+            white-space: nowrap;
         }
         
-        .chart-wrapper .chart-bars li::before {
+        .chart-bars li::before {
             content: '';
             position: absolute;
             top: 0;
             right: 0;
             height: 100%;
-            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
         }
         
-        @media screen and (max-width: 600px) {
-            .chart-wrapper .chart-bars li {
-                padding: 10px;
-            }
+        .chart-bars li span {
+            position: absolute;
+            left: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text);
+            z-index: 2;
         }
         
         .page-footer {
@@ -124,6 +119,7 @@
             top: 0px;
             display: flex;
             flex-direction: column;
+            min-width: 110px;
             align-items: center;
             z-index: 10;
         }
@@ -141,6 +137,16 @@
             border-left: 2px dashed var(--deadline);
             z-index: 5;
         }
+
+        .deadline-text {
+            font-size: 0.6rem;
+            color: black;
+            margin-top: 2px;
+        }
+
+        .timeline-text {
+            font-size: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -149,56 +155,99 @@
             <!-- Months will be dynamically inserted here -->
         </ul>
         <ul class="chart-bars">
-            <li data-duration="0-1" data-color="#b03532" data-progress="80">Statement of Purpose</li>
-            <li data-duration="2-3" data-color="#33a8a5" data-progress="60">Letters of Recommendation</li>
-            <li data-duration="4.5-8" data-color="#30997a" data-progress="40">Transcripts</li>
-            <li data-duration="7.25-10.5" data-color="#6a478f" data-progress="20">GMAT/GRE Preparation</li>
-            <li data-duration="9-11.75" data-color="#da6f2b" data-progress="10">Resume/CV</li>
+            <li data-duration="0.5" data-color="#b03532" data-progress="90">Pemilihan Beasiswa</li>
+            <li data-duration="0.5" data-color="#f07474" data-progress="90">Pemilihan Program</li>
+            <li data-duration="1." data-color="#928ff3" data-progress="35">Statement of Purpose</li>
+            <li data-duration="1." data-color="#33a8a5" data-progress="50">Surat Rekomendasi</li>
+            <li data-duration="1." data-color="#47ef45" data-progress="75">Transkrip & Ijazah</li>
+            <li data-duration="1." data-color="#da6f2b" data-progress="90">Resume/CV</li>
+            <li data-duration="1.5." data-color="#7bc4e6" data-progress="25">Tes TOEFL IBT</li>
+            <li data-duration="0.8" data-color="#f2b134" data-progress="0">Pengisian Formulir</li>
         </ul>
         <div class="deadline">
-            <img src="/assets/icons/stanford.ico" alt="Stanford GSB Icon">
-            <span>Stanford GSB Deadline</span>
+            <img style="display:none;" src="/assets/icons/stanford.ico" alt="Stanford GSB Icon">
+            <span class="deadline-text">Submission Deadline</span>
+            <span style="display:none;" class="deadline-text">(Stanford MCIM, Round 1)</span>
+            <span id="deadline-date" class="deadline-text"></span>
         </div>
         <div class="deadline-line"></div>
     </div>
     <footer class="page-footer">
-        <small>Made with <span>❤</span> by Claude</small>
+        <small>Made with <span>❤</span> by MyKampus Planner</small>
     </footer>
 
     <script>
+        function getStartWeekDay(date) {
+            const dayOfWeek = date.getDay();
+            const daysToMonday = (dayOfWeek === 0 ? 6 : dayOfWeek - 1); // If Sunday, move back 6 days
+            const mondayDate = new Date(date);
+            mondayDate.setDate(date.getDate() - daysToMonday);
+            return mondayDate;
+        }
+
+        function getDaysInMonth(date) {
+            return new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+        }
+
+        function monthDiff(d1, d2) {
+            let years = d2.getFullYear() - d1.getFullYear();
+            let months = d2.getMonth() - d1.getMonth();
+            let days = d2.getDate();
+        
+            let totalMonths = years * 12 + months + days / getDaysInMonth(d2);
+        
+            return Math.max(0, totalMonths);
+        }
+
+
         const monthNames = [
             "Jan", "Feb", "Mar", "Apr", "May", "Jun",
             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
         ];
 
         function createChart() {
-            const startDate = new Date(document.getElementById('startDate').value);
+            const deadlineDate = new Date("2024-09-10");//new Date(document.getElementById('deadlineDate').value);
             const chartValues = document.querySelector(".chart-values");
             const tasks = document.querySelectorAll(".chart-bars li");
             const deadline = document.querySelector(".deadline");
             const deadlineLine = document.querySelector(".deadline-line");
 
+            const isCompacted = true;
+
             // Clear existing month labels
             chartValues.innerHTML = '';
 
-            let maxEndMonth = 0;
-            tasks.forEach(el => {
-                const duration = el.dataset.duration.split("-");
-                const endMonth = parseFloat(duration[1]);
-                maxEndMonth = Math.max(maxEndMonth, endMonth);
-            });
+            console.log("Deadline date: ", deadlineDate);
 
-            const monthCount = Math.ceil(maxEndMonth);
+            let totalDuration = 0;
+            tasks.forEach(task => {
+                const duration = parseFloat(task.dataset.duration);
+                const progress = parseFloat(task.dataset.progress);
+                if(isCompacted) {
+                    totalDuration += duration*(1-progress/100);
+                } else {
+                    totalDuration += duration;
+                }
+            });
+            // console.log("Total duration: ", totalDuration); 
+
+            let startDate = new Date(deadlineDate);
+            startDate.setMonth(startDate.getMonth() - totalDuration);
+            startDate = getStartWeekDay(startDate);
+
+            const monthCount = Math.ceil(totalDuration) + 1;
+            // console.log("Month count: ", monthCount);
 
             // Create month labels
             for (let i = 0; i < monthCount; i++) {
                 const monthDate = new Date(startDate.getFullYear(), startDate.getMonth() + i, 1);
+                // console.log("Month date: ", monthDate);
                 const li = document.createElement('li');
-                li.innerHTML = `<span class="month-label">${monthNames[monthDate.getMonth()]}</span>`;
+                li.innerHTML = `<span>${monthNames[monthDate.getMonth()]}</span>`;
                 chartValues.appendChild(li);
 
-                // Add half-month divider
-                if (i < monthCount - 1) {
+                // Add month divider
+                if (i <= monthCount - 1) {
                     const halfMonthDivider = document.createElement('li');
                     halfMonthDivider.style.flexGrow = '0';
                     halfMonthDivider.style.position = 'relative';
@@ -207,44 +256,61 @@
                 }
             }
 
-            const totalWidth = chartValues.offsetWidth;
+            const totalWidth = 980; // Fixed width minus padding
             const monthWidth = totalWidth / monthCount;
+            
 
-            tasks.forEach(el => {
-                const duration = el.dataset.duration.split("-");
-                const startMonth = parseFloat(duration[0]);
-                const endMonth = parseFloat(duration[1]);
-                const progress = parseFloat(el.dataset.progress);
+            let currentStartDate = new Date(deadlineDate);
+            let currentEndDate = new Date(deadlineDate);
+            let numtasks = tasks.length;
+            for (let index = tasks.length - 1; index >= 0; index--) {
+                const el = tasks[index];
+                const duration = parseFloat(el.dataset.duration);
+                const progress = parseFloat(el.dataset.progress);                
 
-                const left = (startMonth ) * (monthWidth);
-                const width = (endMonth - startMonth) * monthWidth;
+                // Calculate start date for this task
+                if (isCompacted) {
+                    remaining_duration = duration*(1-progress/100);                    
+                } else {
+                    remaining_duration = duration;
+                }
+                // console.log("Remaining duration: ", remaining_duration);
+                currentStartDate = new Date(currentEndDate - remaining_duration * 30 * 24 * 60 * 60 * 1000);
+                currentStartDate = getStartWeekDay(currentStartDate);
+                // console.log(el.textContent);
+                // console.log("Current start date: ", currentStartDate);
+                // console.log("Current end date: ", currentEndDate);                
+                
+                const startMonth = monthDiff(startDate, currentStartDate);                
+                const left = startMonth * monthWidth;
+                const width = duration * monthWidth;
+                currentEndDate = new Date(currentStartDate);
 
                 el.style.left = `${left}px`;
                 el.style.width = `${width}px`;
-                el.style.backgroundColor = 'transparent';
-                el.style.opacity = 1;
-
-                // Add progress bar filled from the right
+                el.style.top = `${40 + index * 30}px`;
                 el.style.border = `2px solid ${el.dataset.color}`;
-                el.style.position = 'relative';
-                el.style.zIndex = '1';
-                el.innerHTML = `
-                    <div style="position: absolute; top: 0; right: 0; height: 100%; width: ${progress}%; background-color: ${el.dataset.color}; z-index: -1;"></div>
-                    <span style="position: relative; z-index: 2;">${el.textContent}</span>
-                `;
-            });
 
-            // Position deadline at the end of the last task
-            const deadlinePosition = maxEndMonth * monthWidth;
-            deadline.style.left = `${deadlinePosition}px`;
-            deadlineLine.style.left = `${deadlinePosition}px`;
-            deadlineLine.style.height = `${chartValues.offsetHeight + (tasks.length  + 1)* 40}px`;
+                // Add progress bar filled from the right and overlay the title
+                el.innerHTML = `
+                    <div style="position: absolute; top: 0; right: 0; height: 100%; width: ${progress}%; background-color: ${el.dataset.color}; border-radius: 8px;"></div>
+                    <span class="timeline-text">${el.textContent}</span>
+                `;
+            };
+
+            // Position deadline at the end
+            deadline_left = monthDiff(startDate, deadlineDate) * monthWidth;
+            deadline.style.left = `${3+deadline_left}px`;
+            deadline.style.top = `${40 + tasks.length * 30}px`;            
+            deadlineLine.style.left = `${deadline_left}px`;
+            deadlineLine.style.height = `${chartValues.offsetHeight + (tasks.length + 1) * 40}px`;
         }
 
-        // Add date input to the page
+        // Add deadline input to the page
         const dateInput = document.createElement('input');
         dateInput.type = 'date';
-        dateInput.id = 'startDate';
+        dateInput.id = 'deadlineDate';
+        dateInput.style.display = 'none';
         dateInput.value = new Date().toISOString().split('T')[0]; // Set default to today
         document.body.insertBefore(dateInput, document.querySelector('.chart-wrapper'));
 
