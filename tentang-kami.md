@@ -41,6 +41,13 @@ Untuk informasi lebih lanjut atau konsultasi, jangan ragu untuk menghubungi kami
 
 - **Komunitas**: [Join Komunitas MyKampus](info/komunitas)
 
+## Lokasi
+
+Tim MyKampus tersebar di berbagai kota di Indonesia, termasuk Jakarta, Bandung, Surabaya, dan Makassar. Kami juga memiliki konsultan yang berbasis di Amerika Serikat untuk memberikan dukungan langsung bagi para pelajar yang ingin melanjutkan studi di sana. 
+
+- **Kantor Pusat**: Jl. Muri Salim 2, Pisangan, Ciputat Timur, Tangerang Selatan, Banten, 15419
+- **Kantor Pembantu (USA)**: 496 Lomita Mall, Stanford, CA 94305
+
 
 <div class="cropped-image-page">
   <a href="/"><img src="../assets/img/logo-color.png"></a>

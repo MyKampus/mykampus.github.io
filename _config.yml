@@ -109,8 +109,10 @@ menu:
   - title: Layanan
     url:   /layanan
     nav_text: true
-  - title: Daftar
+  - title: Newsletter
     url:   /daftar
+  - title: Produk
+    url:   /order    
     nav_text: true
   - title: Timeline
     url:   /timeline
@@ -123,17 +125,7 @@ menu:
     url:   /kontak
   - title: Tentang Kami
     url:   /tentang-kami
-
-
-menu_text:
-  - title: "Home"
-    url: "/"
-  - title: "Layanan"
-    url: "/layanan"
-  - title: "Timeline"
-    url: "/timeline"
-  - title: "Kontak Kami"
-    url: "/kontak-kami"    
+   
 
 collections:
   info:

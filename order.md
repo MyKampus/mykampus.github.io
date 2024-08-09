@@ -23,4 +23,4 @@ publishable-key="pk_live_51PkyIsRrGmsQAtIesceUxgBdBKsyibrDiBcHjbHxOgfCT3T0RJDLXa
 </stripe-pricing-table>
 
 ## Pertanyaan
-Punya pertanyaan? Silakan [hubungi kami](/contact) untuk informasi lebih lanjut.
+Punya pertanyaan? Silakan [hubungi kami](/kontak) untuk informasi lebih lanjut.
