@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refined Grad School Admission Timeline Planner</title>
+    <style>
+        :root {
+            --white: #fff;
+            --divider: lightgrey;
+            --body: #f5f7f8;
+            --deadline: #8B0000;
+            --text: #000000;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        body {
+            background: var(--body);
+            font-size: 16px;
+            font-family: sans-serif;
+            padding-top: 40px;
+        }
+
+        .month-label {
+            margin-left: 40px;
+        }
+        
+        .chart-wrapper {
+            max-width: 1150px;
+            padding: 0 10px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .chart-wrapper .chart-values {
+            position: relative;
+            display: flex;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        
+        .chart-wrapper .chart-values li {
+            flex: 1;
+            min-width: 80px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .chart-wrapper .chart-values li span {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--body);
+            padding: 0 5px;
+            z-index: 2;
+        }
+        
+        .chart-wrapper .chart-values li:not(:last-child)::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            height: 510px;
+            border-right: 1px solid var(--divider);
+        }
+        
+        .chart-wrapper .chart-bars li {
+            position: relative;
+            color: var(--text);
+            margin-bottom: 15px;
+            font-size: 16px;
+            border-radius: 20px;
+            padding: 10px 20px;
+            width: 0;
+            opacity: 0;
+            transition: all 0.65s linear 0.2s;
+            overflow: hidden;
+        }
+        
+        .chart-wrapper .chart-bars li::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        @media screen and (max-width: 600px) {
+            .chart-wrapper .chart-bars li {
+                padding: 10px;
+            }
+        }
+        
+        .page-footer {
+            font-size: 0.85rem;
+            padding: 11px;
+            text-align: center;
+            color: var(--black);
+            opacity: 0.5;
+        }
+        
+        .page-footer span {
+            color: #e31b23;
+        }
+
+        .deadline {
+            position: absolute;
+            top: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .deadline img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .deadline-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin-top:25px;
+            border-left: 2px dashed var(--deadline);
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart-wrapper">
+        <ul class="chart-values">
+            <!-- Months will be dynamically inserted here -->
+        </ul>
+        <ul class="chart-bars">
+            <li data-duration="0-1" data-color="#b03532" data-progress="80">Statement of Purpose</li>
+            <li data-duration="2-3" data-color="#33a8a5" data-progress="60">Letters of Recommendation</li>
+            <li data-duration="4.5-8" data-color="#30997a" data-progress="40">Transcripts</li>
+            <li data-duration="7.25-10.5" data-color="#6a478f" data-progress="20">GMAT/GRE Preparation</li>
+            <li data-duration="9-11.75" data-color="#da6f2b" data-progress="10">Resume/CV</li>
+        </ul>
+        <div class="deadline">
+            <img src="/assets/icons/stanford.ico" alt="Stanford GSB Icon">
+            <span>Stanford GSB Deadline</span>
+        </div>
+        <div class="deadline-line"></div>
+    </div>
+    <footer class="page-footer">
+        <small>Made with <span>❤</span> by Claude</small>
+    </footer>
+
+    <script>
+        const monthNames = [
+            "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+        ];
+
+        function createChart() {
+            const startDate = new Date(document.getElementById('startDate').value);
+            const chartValues = document.querySelector(".chart-values");
+            const tasks = document.querySelectorAll(".chart-bars li");
+            const deadline = document.querySelector(".deadline");
+            const deadlineLine = document.querySelector(".deadline-line");
+
+            // Clear existing month labels
+            chartValues.innerHTML = '';
+
+            let maxEndMonth = 0;
+            tasks.forEach(el => {
+                const duration = el.dataset.duration.split("-");
+                const endMonth = parseFloat(duration[1]);
+                maxEndMonth = Math.max(maxEndMonth, endMonth);
+            });
+
+            const monthCount = Math.ceil(maxEndMonth);
+
+            // Create month labels
+            for (let i = 0; i < monthCount; i++) {
+                const monthDate = new Date(startDate.getFullYear(), startDate.getMonth() + i, 1);
+                const li = document.createElement('li');
+                li.innerHTML = `<span class="month-label">${monthNames[monthDate.getMonth()]}</span>`;
+                chartValues.appendChild(li);
+
+                // Add half-month divider
+                if (i < monthCount - 1) {
+                    const halfMonthDivider = document.createElement('li');
+                    halfMonthDivider.style.flexGrow = '0';
+                    halfMonthDivider.style.position = 'relative';
+                    halfMonthDivider.innerHTML = '<div style="position: absolute; top: 20px; bottom: 0; width: 1px; background-color: var(--divider); left: 50%;"></div>';
+                    chartValues.appendChild(halfMonthDivider);
+                }
+            }
+
+            const totalWidth = chartValues.offsetWidth;
+            const monthWidth = totalWidth / monthCount;
+
+            tasks.forEach(el => {
+                const duration = el.dataset.duration.split("-");
+                const startMonth = parseFloat(duration[0]);
+                const endMonth = parseFloat(duration[1]);
+                const progress = parseFloat(el.dataset.progress);
+
+                const left = (startMonth ) * (monthWidth);
+                const width = (endMonth - startMonth) * monthWidth;
+
+                el.style.left = `${left}px`;
+                el.style.width = `${width}px`;
+                el.style.backgroundColor = 'transparent';
+                el.style.opacity = 1;
+
+                // Add progress bar filled from the right
+                el.style.border = `2px solid ${el.dataset.color}`;
+                el.style.position = 'relative';
+                el.style.zIndex = '1';
+                el.innerHTML = `
+                    <div style="position: absolute; top: 0; right: 0; height: 100%; width: ${progress}%; background-color: ${el.dataset.color}; z-index: -1;"></div>
+                    <span style="position: relative; z-index: 2;">${el.textContent}</span>
+                `;
+            });
+
+            // Position deadline at the end of the last task
+            const deadlinePosition = maxEndMonth * monthWidth;
+            deadline.style.left = `${deadlinePosition}px`;
+            deadlineLine.style.left = `${deadlinePosition}px`;
+            deadlineLine.style.height = `${chartValues.offsetHeight + (tasks.length  + 1)* 40}px`;
+        }
+
+        // Add date input to the page
+        const dateInput = document.createElement('input');
+        dateInput.type = 'date';
+        dateInput.id = 'startDate';
+        dateInput.value = new Date().toISOString().split('T')[0]; // Set default to today
+        document.body.insertBefore(dateInput, document.querySelector('.chart-wrapper'));
+
+        dateInput.addEventListener('change', createChart);
+        window.addEventListener("load", createChart);
+        window.addEventListener("resize", createChart);
+    </script>
+</body>
+</html>
