@@ -1,0 +1,281 @@
+:root {
+    --white: #fff;
+    --divider: lightgrey;
+    --body: #f5f7f8;
+    --deadline: #8B0000;
+    --text: #000000;
+}
+
+#breadcrumbs>ul {
+    height: 1rem;
+    margin: -1.5rem 3rem .5rem;
+    padding: 0;
+    font-size: .667rem;
+    color: gray;
+    text-transform: uppercase;
+    width: 100%;
+    list-style: none
+}
+
+#breadcrumbs>ul>li {
+    display: inline
+}
+
+#breadcrumbs>ul>li a {
+    color: gray;
+    text-decoration: none;
+    border-bottom: none
+}
+
+.layout-empty{
+    min-height: 112vh;
+    display: flex;
+    margin-top:70px;
+    margin-left:10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background: var(--body);
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+
+.chart-wrapper {
+    width: 1000px;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.chart-values {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.chart-values li {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.chart-values li span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--body);
+    padding: 0 5px;
+    z-index: 2;
+}
+
+.chart-values li:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 510px;
+    border-right: 1px solid var(--divider);
+}
+
+.chart-bars li {
+    position: absolute;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 0.65s linear 0.2s;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.chart-bars li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.chart-bars li span {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text);
+    z-index: 2;
+}
+
+.page-madeby {
+    font-size: 0.85rem;
+    padding: 11px;
+    text-align: center;
+    color: var(--black);
+    opacity: 0.5;
+}
+
+.page-madeby span {
+    color: #e31b23;
+}
+
+.deadline {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    align-items: left;
+    z-index: 10;
+    padding-left: 5px;
+}
+
+.deadline img {
+    width: 30px;
+    height: 30px;
+}
+
+.deadline-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 25px;
+    border-left: 2px dashed var(--deadline);
+    z-index: 5;
+}
+
+.deadline-text {
+    font-size: 0.6rem;
+    color: black;
+    margin-top: 2px;
+}
+
+.timeline-text {
+    font-size: 1rem;
+}
+
+.task-controls {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 450px;
+    font-size: small;
+    left: 30%;
+}
+
+.task-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.task-control label {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.task-control input[type="range"] {
+    width: 200px;
+}
+
+.task-control span {
+    margin-left: 10px;
+    width: 40px;
+    text-align: right;
+}
+
+.task-controls {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 450px;
+    font-size: small;
+    left: 30%;
+}
+
+.task-controls-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.task-controls-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.collapse-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.program-select {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 5px;
+}
+
+.user-input-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.user-input-container {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.user-input-container input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.user-input-container button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

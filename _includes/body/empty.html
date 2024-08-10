@@ -1,0 +1,6 @@
+{% assign assets_url = "/assets/" | relative_url %}
+
+{% unless site.hydejack.no_breadcrumbs %}{% include body/breadcrumbs.html url=page.url %}{% endunless %}
+{{ content }}
+
+
