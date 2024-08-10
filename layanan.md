@@ -12,6 +12,10 @@ MyKampus menyediakan berbagai layanan yang dirancang untuk membantu Anda meraih 
 
 Program webinar interaktif yang mengundang alumni/mahasiswa kampus di Amerika Serikat untuk berbagi pengalaman serta tips dan trik mencari beasiswa dan mendaftar kampus.
 
+## Planner MyKampus (Free)
+
+Aplikasi planner MyKampus membantu Anda merencanakan langkah-langkah menuju kampus impian Anda di Amerika Serikat. Dapatkan akses ke timeline pendaftaran beasiswa, kampus, dan persiapan keberangkatan. [Gunakan aplikasi planner sekarang](/planner)!
+
 ## One-on-One Mentoring 
 
 Layanan bimbingan individu ini dirancang untuk memberikan perhatian khusus dan panduan yang dipersonalisasi sesuai dengan kebutuhan Anda. Setiap sesi berlangsung selama satu jam dan diadakan dua kali dalam sebulan. [Order sekarang](/order)!
