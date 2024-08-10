@@ -47,6 +47,14 @@ events:
     date: 2024-11-13
     countdown: true
     type: "kampus"
+  - name: "Stanford MCIM Round 1"
+    web: "https://med.stanford.edu/master-clinical-informatics-management/admissions/application.html"
+    active: true
+    school: "stanford"
+    id: "recfxVIMK4AL9nfhe"
+    date: 2024-11-15
+    countdown: true
+    type: "kampus"
   - name: "Stanford Chemical Engineering PhD"
     web: "https://cheme.stanford.edu/academics-admissions/graduate-admissions"
     active: true

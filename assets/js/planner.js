@@ -10,10 +10,27 @@ const tasks = [
     { name: "Formulir", duration: 0.5, color: "#34f91d", progress: 4 }
 ];
 
-const programOptions = [
+const kampusOptions = [
     { name: "Stanford MCIM Round 1", campus: "stanford", deadline: "2024-11-15" },
     { name: "MIT Chemical Engineering PhD", campus: "mit", deadline: "2024-12-01" }
 ];
+
+let programOptions = [];
+
+
+function initializeProgramOptions() {
+    // Assuming site.data.timeline.events is available globally
+    programOptions = window.timelineEvents
+        .filter(event => event.type === "kampus")
+        .map(event => ({
+            name: event.name,
+            campus: event.school,
+            deadline: event.date,
+            web: event.web
+        }));
+
+}
+
 
 function getStartWeekDay(date) {
     const dayOfWeek = date.getDay();
@@ -243,7 +260,7 @@ function updateUserNameDisplay() {
     const taskControlsTitle = document.querySelector('.task-controls-title');
     
     if (userName) {
-        footerText.innerHTML = `Dibuat dengan<span>❤</span> oleh MyKampus untuk ${userName}`;
+        footerText.innerHTML = `Dibuat dengan <span>❤</span> oleh MyKampus untuk ${userName}`;
         taskControlsTitle.textContent = `Ceklis Dokumen (${userName})`;
     } else {
         footerText.innerHTML = `Dibuat dengan <span>❤</span> oleh MyKampus Planner`;
@@ -257,10 +274,14 @@ function handleUserNameInput(event) {
     }
 }
 
+
 window.addEventListener("load", () => {
+    initializeProgramOptions();
     createProgramSelect();
     createTaskControls();
-    createChart();
+    createChart();    
+    // console.log(kampusOptions);
+    // console.log(programOptions);
 
     document.querySelector('.collapse-button').addEventListener('click', toggleTaskControls);
     document.querySelector('.user-input-toggle').addEventListener('click', toggleUserInput);

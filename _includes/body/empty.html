@@ -2,5 +2,6 @@
 
 {% unless site.hydejack.no_breadcrumbs %}{% include body/breadcrumbs.html url=page.url %}{% endunless %}
 {{ content }}
+<script>window.timelineEvents = {{ site.data.timeline.events | jsonify }};</script>
 
 
