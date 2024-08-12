@@ -1,7 +1,7 @@
 lang:                  id
 title:                 MyKampus
 tagline:           Wujudkan Kampus Impianmu
-copyright:          MyKampus © 2021. All rights reserved.
+copyright:          MyKampus © 2024. All rights reserved.
 description:         MyKampus adalah platform yang membantu kamu menjadi mahasiswa di kampus top US. Kami menyediakan informasi beasiswa, kampus top US, dan layanan konsultasi pendidikan.
 keywords:           [kampus US, beasiswa, konsultasi pendidikan, kampus impian, studi di US]
 url:                   https://mykamp.us
@@ -109,9 +109,9 @@ menu:
   - title: Layanan
     url:   /layanan
     nav_text: true
-  - title: Newsletter
-    url:   /daftar
-  - title: Produk
+  # - title: Newsletter
+    # url:   /daftar
+  - title: Checkout
     url:   /order    
     nav_text: true
   - title: Timeline
@@ -121,8 +121,8 @@ menu:
     url:   /info
   - title: Events
     url:   /events
-  - title: Hubungi
-    url:   /kontak
+  # - title: Hubungi
+    # url:   /kontak
   - title: Tentang Kami
     url:   /tentang-kami
    

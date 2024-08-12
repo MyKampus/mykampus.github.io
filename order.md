@@ -9,13 +9,13 @@ image: /assets/img/mykampus-sidebar.jpeg
 
 ## Proses Pemesanan
 
-1. **Pilih Paket Layanan**: Pilih paket layanan yang sesuai dengan kebutuhan Anda.
+1. **Pilih Paket Layanan**: Pilih paket layanan konsultasi yang sesuai dengan kebutuhan Anda.
 2. **Isi Informasi**: Isi informasi kontak dan detail pembayaran Anda.
 3. **Pembayaran**: Lakukan pembayaran melalui Stripe, platform pembayaran yang aman dan terpercaya.
 4. **Konfirmasi**: Setelah pembayaran berhasil, Anda akan menerima email konfirmasi dan petunjuk selanjutnya.
 5. **Mulai Konsultasi**: Tim kami akan menghubungi Anda untuk mengatur jadwal konsultasi sesuai dengan paket yang Anda pilih.
 
-## Pilihan Layanan
+## Pilihan Layanan Konsultasi
 
 <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
 <stripe-pricing-table pricing-table-id="prctbl_1PkyqVRrGmsQAtIecFldZoOU"

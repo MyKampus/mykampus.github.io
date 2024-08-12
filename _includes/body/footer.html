@@ -4,6 +4,7 @@
   {% if site.copyright.size > 0 %}
     <p><small class="copyright">{{ site.copyright | markdownify | replace:'<p>','' | replace:'</p>','' }}</small></p>
   {% endif %}
+  <p><small>Jl. Muri Salim 2, Pisangan, Ciputat Timur, Tangerang Selatan, Banten, 15419</small></p>
   {% if site.legal.size > 0 %}
     <nav class="legal"><small>
     {% for node in site.legal %}
@@ -12,8 +13,7 @@
       {% unless forloop.last %}{{ site.data.strings.separator | default:'|' }}{% endunless %}
     {% endfor %}
     </small></nav>
-  {% endif %}
-    <!-- <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.6</span></small></p> -->
+  {% endif %}    
   <hr class="sr-only"/>
 </footer>
 {% endif %}
