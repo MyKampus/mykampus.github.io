@@ -916,3 +916,157 @@ events:
     countdown: true
     type: kampus
     school: yale
+  - name: MSU Educational Psychology and Educational Technology PhD
+    date: 2024-12-01
+    web: https://education.msu.edu/cepse/epet/apply/#english-language-proficiency
+    countdown: true
+    type: kampus
+    school: michigan-state
+
+  - name: MSU Measurement and Quantitative Methods PhD
+    date: 2024-12-01
+    web: https://education.msu.edu/cepse/mqm/apply/#Admissions-Overview
+    countdown: true
+    type: kampus
+    school: michigan-state
+
+  - name: MSU Curriculum, Instruction and Teacher Education PhD
+    date: 2024-12-01
+    web: https://education.msu.edu/te/phd/prospective-students/application-process/#Current-Curriculum-Vitae
+    countdown: true
+    type: kampus
+    school: michigan-state
+
+  - name: MSU Counselor Education and Supervision PhD
+    date: 2024-12-01
+    web: https://education.msu.edu/cepse/rehab/phd/applying/
+    countdown: true
+    type: kampus
+    school: michigan-state
+
+  - name: MSU Special Education PhD
+    date: 2024-12-01
+    web: https://education.msu.edu/cepse/specialed/phd/admission/
+    countdown: true
+    type: kampus
+    school: michigan-state
+
+  - name: Purdue English Education PhD
+    date: 2024-12-01
+    web: https://education.purdue.edu/graduate-students/prospective-students/graduate-programs/english-education/english-education-doctoral-program/
+    countdown: true
+    type: kampus
+    school: purdue
+
+  - name: Purdue Mathematics Education PhD
+    date: 2024-12-01
+    web: https://education.purdue.edu/graduate-students/prospective-students/graduate-programs/mathematics-education/mathematics-education-doctoral-program/
+    countdown: true
+    type: kampus
+    school: purdue
+
+  - name: Purdue Science Education PhD
+    date: 2024-12-01
+    web: https://education.purdue.edu/graduate-students/prospective-students/graduate-programs/science-education/science-education-doctoral-program/
+    countdown: true
+    type: kampus
+    school: purdue
+
+  - name: Purdue Social Studies Education PhD
+    date: 2024-12-01
+    web: https://education.purdue.edu/graduate-students/prospective-students/graduate-programs/social-studies-education/social-studies-education-doctoral-program/
+    countdown: true
+    type: kampus
+    school: purdue
+
+  - name: Purdue Special Education PhD
+    date: 2024-12-01
+    web: https://education.purdue.edu/graduate-students/prospective-students/graduate-programs/special-education/special-education-doctoral-program/
+    countdown: true
+    type: kampus
+    school: purdue
+
+  - name: Michigan Education and Psychology PhD
+    date: 2024-11-15
+    web: https://marsal.umich.edu/academics-admissions/degrees/doctoral/education-and-psychology#tab2
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Educational Studies PhD
+    date: 2024-12-01
+    web: https://marsal.umich.edu/academics-admissions/degrees/doctoral/educational-studies#tab2
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan English and Education PhD
+    date: 2024-12-30
+    web: https://marsal.umich.edu/academics-admissions/degrees/doctoral/english-and-education#tab2
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Public Policy in Postsecondary Education PhD
+    date: 2024-12-01
+    web: https://marsal.umich.edu/academics-admissions/degrees/doctoral/public-policy-postsecondary-education#tab2
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Michigan Research, Evaluation, and Assessment PhD
+    date: 2024-12-01
+    web: https://marsal.umich.edu/academics-admissions/degrees/doctoral/research-evaluation-and-assessment#tab2
+    countdown: true
+    type: kampus
+    school: michigan
+
+  - name: Pitt Applied Developmental Psychology PhD
+    date: 2024-12-01
+    web: https://www.education.pitt.edu/program/phd-in-applied-developmental-psychology/
+    countdown: true
+    type: kampus
+    school: pittsburgh
+
+  - name: Pitt Education Policy PhD
+    date: 2024-12-01
+    web: https://www.education.pitt.edu/program/phd-in-education-policy-and-social-change/
+    countdown: true
+    type: kampus
+    school: pittsburgh
+
+  - name: Pitt Higher Education PhD
+    date: 2024-12-01
+    web: https://www.education.pitt.edu/program/phd-in-higher-education/
+    countdown: true
+    type: kampus
+    school: pittsburgh
+
+  - name: Pitt Language, Literacy, and Culture PhD
+    date: 2024-12-01
+    web: https://www.education.pitt.edu/program/phd-in-language-literacy-and-culture/
+    countdown: true
+    type: kampus
+    school: pittsburgh
+
+  - name: Pitt Learning Sciences and Policy PhD
+    date: 2024-12-01
+    web: https://www.education.pitt.edu/program/phd-in-learning-sciences-and-policy/
+    countdown: true
+    type: kampus
+    school: pittsburgh
+
+  - name: Pitt Special Education PhD
+    date: 2024-12-01
+    web: https://www.education.pitt.edu/program/phd-in-special-education/
+    countdown: true
+    type: kampus
+    school: pittsburgh
+
+  - name: Pitt Urban Education PhD
+    date: 2024-12-01
+    web: https://www.education.pitt.edu/program/phd-in-urban-education/
+    countdown: true
+    type: kampus
+    school: pittsburgh
+  
