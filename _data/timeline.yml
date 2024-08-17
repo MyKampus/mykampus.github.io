@@ -265,43 +265,43 @@ events:
     type: "kampus"
   - name: "Pitt Applied Developmental Psychology PhD"
     web: "https://www.education.pitt.edu/program/phd-in-applied-developmental-psychology/"
-    school: "pittsburgh"
+    school: "pitt"
     date: 2024-12-01
     countdown: true
     type: "kampus"
   - name: "Pitt Education Policy PhD"
     web: "https://www.education.pitt.edu/program/phd-in-education-policy-and-social-change/"
-    school: "pittsburgh"
+    school: "pitt"
     date: 2024-12-01
     countdown: true
     type: "kampus"
   - name: "Pitt Higher Education PhD"
     web: "https://www.education.pitt.edu/program/phd-in-higher-education/"
-    school: "pittsburgh"
+    school: "pitt"
     date: 2024-12-01
     countdown: true
     type: "kampus"
   - name: "Pitt Language, Literacy, and Culture PhD"
     web: "https://www.education.pitt.edu/program/phd-in-language-literacy-and-culture/"
-    school: "pittsburgh"
+    school: "pitt"
     date: 2024-12-01
     countdown: true
     type: "kampus"
   - name: "Pitt Learning Sciences and Policy PhD"
     web: "https://www.education.pitt.edu/program/phd-in-learning-sciences-and-policy/"
-    school: "pittsburgh"
+    school: "pitt"
     date: 2024-12-01
     countdown: true
     type: "kampus"
   - name: "Pitt Special Education PhD"
     web: "https://www.education.pitt.edu/program/phd-in-special-education/"
-    school: "pittsburgh"
+    school: "pitt"
     date: 2024-12-01
     countdown: true
     type: "kampus"
   - name: "Pitt Urban Education PhD"
     web: "https://www.education.pitt.edu/program/phd-in-urban-education/"
-    school: "pittsburgh"
+    school: "pitt"
     date: 2024-12-01
     countdown: true
     type: "kampus"
