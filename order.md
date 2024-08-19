@@ -6,6 +6,8 @@ description: Pesan layanan MyKampus disini. Setelah memilih paket yang sesuai, A
 image: /assets/img/mykampus-sidebar.jpeg
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/mykampus.css' | relative_url }}">
+
 ## Proses Pemesanan
 
 1. **Pilih Paket Layanan**: Pilih paket layanan konsultasi yang sesuai dengan kebutuhan Anda.
