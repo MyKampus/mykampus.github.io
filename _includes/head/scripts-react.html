@@ -1,0 +1,24 @@
+<script>
+    (function() {
+      // Simple script loader function
+      function loadScript(src, callback) {
+        var script = document.createElement('script');
+        script.src = src;
+        script.onload = callback;
+        script.onerror = function() { console.error('Failed to load script: ' + src); };
+        document.head.appendChild(script);
+      }
+    
+      // Simple style loader function
+      function loadStyle(href) {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = href;
+        document.head.appendChild(link);
+      }
+              
+    })();
+    </script>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="/assets/css/mykampus.css" type="text/css"></script>

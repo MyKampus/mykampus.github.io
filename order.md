@@ -1,11 +1,10 @@
 ---
-layout: about
+layout: order
 title: Pemesanan dan Harga
 permalink: order
-description: Pesan layanan MyKampus disini. Setelah memilih paket yang sesuai, Anda akan diarahkan ke halaman pembayaran yang aman menggunakan Stripe.
+description: Pesan layanan MyKampus disini. Setelah memilih paket yang sesuai, Anda akan diarahkan ke halaman pembayaran. 
 image: /assets/img/mykampus-sidebar.jpeg
 ---
-
 
 ## Proses Pemesanan
 
@@ -17,10 +16,43 @@ image: /assets/img/mykampus-sidebar.jpeg
 
 ## Pilihan Layanan Konsultasi
 
-<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-<stripe-pricing-table pricing-table-id="prctbl_1PkyqVRrGmsQAtIecFldZoOU"
-publishable-key="pk_live_51PkyIsRrGmsQAtIesceUxgBdBKsyibrDiBcHjbHxOgfCT3T0RJDLXa0GdqXYgpElcfeGJdHCqUzBxJTMtdtHBA7800FF68fUCi">
-</stripe-pricing-table>
+<div id="product-list" class="grid">
+  {% for product in site.data.products %}
+    <div class="product-card">
+      {% if product.popular %}
+        <div class="popular-badge">Paling populer</div>
+      {% endif %}
+      <h3 class="product-title">{{ product.title }}</h3>
+      <p class="product-description">{{ product.description }}</p>
+      <p class="product-price">Rp. {{ product.price }}</p>
+      <div class="button-group">
+        <div class="primary-button-wrapper">
+          <button class="primary-button" onclick="window.open('{{ product.primaryUrl }}', '_blank')">Cekout</button>
+          <button class="toggle-button" onclick="toggleSecondaryButton(this)">
+            <span class="toggle-icon">▼</span>
+          </button>
+        </div>
+        <button class="secondary-button" style="display: none;" onclick="window.open('{{ product.secondaryUrl }}', '_blank')">Cekout via Stripe</button>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+function toggleSecondaryButton(button) {
+  const card = button.closest('.product-card');
+  const secondaryButton = card.querySelector('.secondary-button');
+  const toggleIcon = button.querySelector('.toggle-icon');
+  
+  if (secondaryButton.style.display === 'none') {
+    secondaryButton.style.display = 'block';
+    toggleIcon.style.transform = 'rotate(180deg)';
+  } else {
+    secondaryButton.style.display = 'none';
+    toggleIcon.style.transform = 'rotate(0deg)';
+  }
+}
+</script>
 
 ## Pertanyaan
 Punya pertanyaan? Silakan [hubungi kami](/kontak) untuk informasi lebih lanjut.

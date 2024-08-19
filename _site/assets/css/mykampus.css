@@ -1,0 +1,108 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .product-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+  }
+  
+  .product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+  
+  .product-description {
+    font-size: 0.875rem;
+    color: #4a5568;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2C7A7B;
+    margin-bottom: 0.75rem;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .primary-button-wrapper {
+    display: flex;
+    gap: 0.25rem;
+  }
+  
+  .primary-button {
+    flex-grow: 1;
+    background-color: #2C7A7B;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 9999px 0 0 9999px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .secondary-button {
+    background-color: #38A169;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .toggle-button {
+    background-color: #2C7A7B;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0 9999px 9999px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 48px;
+  }
+  
+  .toggle-icon {
+    transition: transform 0.3s;
+    font-size: 0.75rem;
+  }
+  
+  .popular-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: linear-gradient(90deg, #CBD5E0, #EDF2F7, #CBD5E0);
+    color: #4A5568;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    animation: shimmer 2s infinite linear;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }

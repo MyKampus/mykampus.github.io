@@ -1,0 +1,27 @@
+- title: "Review Dokumen Aplikasi"
+  description: "Review dokumen aplikasi (CV, statement of purpose, research proposal, dll.). Feedback diberikan dalam waktu 48-72 jam. Feedback berupa saran tertulis perbaikan dan penyesuaian untuk meningkatkan kualitas aplikasi Anda."
+  price: "399.000,-"
+  popular: false
+  primaryUrl: "https://checkout.xendit.co/od/mykampus-review-dokumen-aplikasi-2024"
+  secondaryUrl: "https://buy.stripe.com/bIY9Cd7Jcb6Uebu145"
+
+- title: "Aksel Persiapan Berkas (Springboard)"
+  description: "3 sesi review dan feedback yang dimoderasi mentor selama 2 minggu (untuk CV/resume, statement of purpose, dan mockup aplikasi) + sesi final. Peserta upload dokumen 24 jam sebelum pertemuan."
+  price: "599.000,-"
+  popular: false
+  primaryUrl: "https://checkout.xendit.co/od/mykampus-springboard-2024"
+  secondaryUrl: "https://buy.stripe.com/5kAg0B4x04Iw4AUbII"
+
+- title: "One-on-One Mentoring"
+  description: "4 sesi pertemuan jarak jauh (melalui Zoom) selama 1 jam setiap 2 minggu. 1 sesi pertemuan mendalam dengan 1 tujuan dan kebutuhan Anda. Akan ada diskusi mendalam tentang pilihan kampus, proses aplikasi, dan persiapan keberangkatan."
+  price: "899.000,-"
+  popular: true
+  primaryUrl: "https://checkout.xendit.co/od/mykampus-1on1-mentoring-2024"
+  secondaryUrl: "https://buy.stripe.com/14k5lX9Rk0sg9Ve6oq"
+
+- title: "Group Consultations"
+  description: "4 sesi bimbingan per kelompok untuk maksimal 4 organ. Tiap pertemuan berdurasi 2 jam (melalui Zoom) selama 1,5-2 jam, setiap bulan. Sesi bimbingan bersama membahas berbagai aspek dari perencanaan, aplikasi kampus, dan persiapan studi."
+  price: "2.999.000,-"
+  popular: false
+  primaryUrl: "https://checkout.xendit.co/od/mykampus-group-consultations-2024"
+  secondaryUrl: "https://buy.stripe.com/14kdStbZsfnaaZi5kn"
